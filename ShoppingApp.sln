@@ -3,31 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Core", "ShoppingApp.Core\ShoppingApp.Core.csproj", "{E0F3A93B-608E-416F-8E72-9CC5604A920B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.Infrastructure", "ShoppingApp.Infrastructure\ShoppingApp.Infrastructure.csproj", "{AA1D8EC0-BA2A-4E0B-8825-DE7609FAB156}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.API", "ShoppingApp.API\ShoppingApp.API.csproj", "{C11D5209-6A95-488A-8F99-B9BD999D3833}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0F3A93B-608E-416F-8E72-9CC5604A920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0F3A93B-608E-416F-8E72-9CC5604A920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0F3A93B-608E-416F-8E72-9CC5604A920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0F3A93B-608E-416F-8E72-9CC5604A920B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA1D8EC0-BA2A-4E0B-8825-DE7609FAB156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA1D8EC0-BA2A-4E0B-8825-DE7609FAB156}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA1D8EC0-BA2A-4E0B-8825-DE7609FAB156}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA1D8EC0-BA2A-4E0B-8825-DE7609FAB156}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C11D5209-6A95-488A-8F99-B9BD999D3833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C11D5209-6A95-488A-8F99-B9BD999D3833}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C11D5209-6A95-488A-8F99-B9BD999D3833}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C11D5209-6A95-488A-8F99-B9BD999D3833}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
