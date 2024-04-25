@@ -1,0 +1,15 @@
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\bin\Debug\net8.0\Application.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
