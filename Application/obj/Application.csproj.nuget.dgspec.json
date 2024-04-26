@@ -47,9 +47,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Auth0.AuthenticationApi": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
-              "version": "[7.26.1, )"
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

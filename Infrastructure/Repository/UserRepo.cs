@@ -23,8 +23,13 @@ namespace Infrastructure.Repository
         public async Task<ServiceResponse> CreateUser(User user)
         {
             _dbContext.Users.Add(user);
-            await _dbContext.SaveChangesAsync();
+            await saveChanges();
             return new ServiceResponse(true, "Added");
+        }
+
+        public Task<ServiceResponse> UpdateUser(User user)
+        {
+            throw new NotImplementedException();
         }
 
         private async Task saveChanges()

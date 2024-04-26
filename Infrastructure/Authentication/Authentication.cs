@@ -12,16 +12,21 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Authentication
 {
-    public class AuthenticationImplementation : IAuthentication
+    public class Authentication : IAuthentication
     {
         private readonly AuthConfiguration _aConfiguration;
-
-        public AuthenticationImplementation(IOptions<AuthConfiguration> options)
+        
+        public Authentication(IOptions<AuthConfiguration> options)
         {
             _aConfiguration = options.Value;
         }
 
-        public async Task<AuthSignupResponse> SingupAuthAsync(string username, string password)
+        public Task<AuthDTO> GetIdAsync(string token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<AuthDTO> SingupAuthAsync(string username, string password)
         {
             var signupRequest = new SignupUserRequest
             {
@@ -36,7 +41,7 @@ namespace Infrastructure.Authentication
             try
             {
                 var signupResponse = await authClient.SignupUserAsync(signupRequest);
-                return new AuthSignupResponse
+                return new AuthDTO
                 {
                     Id = signupResponse.Id,
                 };

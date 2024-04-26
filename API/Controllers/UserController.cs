@@ -1,12 +1,11 @@
-﻿using Application.Interfaces;
-using Application.DTOs;
-using Application.Services;
+﻿using Application.DTOs;
 using Auth0.AuthenticationApi;
 using Auth0.AuthenticationApi.Models;
 using Auth0.Core.Exceptions;
-using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
+using Application.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
@@ -53,6 +52,7 @@ namespace API.Controllers
                 return StatusCode(500, "An error occurred: " + ex.Message);
             }
         }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
         {
@@ -106,7 +106,29 @@ namespace API.Controllers
 
                 return BadRequest("Invalid login attempt." + ex.Message);
             }
+
+            
+
+
+
         }
+
+    
+        [HttpPost("addAddress")]
+        [Authorize]
+        public async Task<IActionResult> Address([FromBody] AddressDTO model)
+        {
+            var result = await _userService.AddAddress(model);
+            if(result.Flag == true)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result.Message);
+            }
+        }
+
 
     }
 }

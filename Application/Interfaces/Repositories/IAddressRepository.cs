@@ -6,11 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Services
+namespace Application.Interfaces.Repositories
 {
-    public interface IUserService
+    public interface IAddressRepository
     {
-        public Task<ServiceResponse> SignUpAsync(SignUpDTO newUser);
-
+        Task<ServiceResponse> AddasyncAddress(Address address);
     }
 }

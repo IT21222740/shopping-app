@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs
 {
-    public class AuthSignupResponse
+    public class AuthDTO
     {
         public required string Id{  get; set; }
         

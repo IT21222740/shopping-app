@@ -9,8 +9,6 @@ namespace Infrastructure.Authentication
     public class AuthConfiguration
     {
         public string Domain { get; set; }
-       
-
         public string clientId { get; set; }
         public string connection { get; set; }
         

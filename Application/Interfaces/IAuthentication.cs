@@ -9,6 +9,7 @@ namespace Application.Interfaces
 {
     public interface IAuthentication
     {
-        Task<AuthSignupResponse> SingupAuthAsync(string username, string password);
+        Task<AuthDTO> SingupAuthAsync(string username, string password);
+        
     }
 }

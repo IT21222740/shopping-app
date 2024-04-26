@@ -11,6 +11,7 @@ namespace Application.Interfaces.Repositories
     public interface IUserRepository
     {
         Task<ServiceResponse> CreateUser(User user);
+        Task<ServiceResponse> UpdateUser(User user);
 
     }
 }
