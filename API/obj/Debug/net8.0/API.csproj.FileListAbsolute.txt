@@ -144,3 +144,4 @@ C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Auth0.Core.dll
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Stripe.net.dll

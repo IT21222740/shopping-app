@@ -19,7 +19,7 @@ namespace Infrastructure.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<UserProduct> ProductProducts { get; set; }
+        public DbSet<UserProduct> UserProducts { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

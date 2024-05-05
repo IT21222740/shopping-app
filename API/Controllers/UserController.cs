@@ -88,11 +88,11 @@ namespace API.Controllers
                 var jwtToken = tokenHandler.ReadJwtToken(tokenResponse.AccessToken);
 
 
-                var userInfo = await client.GetUserInfoAsync(tokenResponse.AccessToken);
+                
 
                 return Ok(new
                 {
-                    userInfo = userInfo,
+                    
                     AccessToken = tokenResponse.AccessToken,
                     IdToken = tokenResponse.IdToken,
                     Message = "User logged in successfully."

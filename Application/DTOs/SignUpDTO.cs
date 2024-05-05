@@ -8,7 +8,8 @@ namespace Application.DTOs
 {
     public class SignUpDTO
     {
-        public String Email { get; set; }
-        public String Password { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Name { get; set; }
     }
 }

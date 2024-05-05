@@ -202,7 +202,7 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductProducts");
+                    b.ToTable("UserProducts");
                 });
 
             modelBuilder.Entity("Domain.Entities.Address", b =>

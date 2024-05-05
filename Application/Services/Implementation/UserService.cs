@@ -18,12 +18,14 @@ namespace Application.Services.Implementation
         private readonly IAuthentication authentication;
         private readonly ITokenService tokenService;
         private readonly IAddressRepository addressRepository;
-        public UserService(IUserRepository _userRepostory, IAuthentication _authentication, ITokenService _tokenService, IAddressRepository _addressRepository)
+        private readonly IPamentService pamentService;
+        public UserService(IUserRepository _userRepostory, IAuthentication _authentication, ITokenService _tokenService, IAddressRepository _addressRepository, IPamentService _pamentService)
         {
             userRepository = _userRepostory;
             authentication = _authentication;
             tokenService = _tokenService;
             addressRepository = _addressRepository;
+            pamentService = _pamentService;
         }
 
         public async Task<ServiceResponse> AddAddress(AddressDTO addressDto)
@@ -48,6 +50,7 @@ namespace Application.Services.Implementation
 
 
             AuthDTO signupResponse = await authentication.SingupAuthAsync(newUser.Email, newUser.Password);
+            var StripeId = await pamentService.RegisterUserToPayment(newUser.Email, newUser.Name);
 
 
             if (signupResponse != null)
@@ -56,6 +59,7 @@ namespace Application.Services.Implementation
                 {
                     UserId = signupResponse.Id,
                     Email = newUser.Email,
+                    StripeId= StripeId
 
                 };
                 var result = await userRepository.CreateUser(user1);

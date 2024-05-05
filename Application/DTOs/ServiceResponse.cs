@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs
 {
-    public record ServiceResponse(bool Flag,string Message);
+    public record ServiceResponse(bool Flag,string Message, object? data = null);
 }
