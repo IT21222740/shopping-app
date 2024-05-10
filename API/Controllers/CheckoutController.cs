@@ -1,4 +1,6 @@
-﻿using Application.DTOs.Product;
+﻿using Application.DTOs;
+using Application.DTOs.Order;
+using Application.DTOs.Product;
 using Application.Interfaces;
 using Application.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -33,40 +35,19 @@ namespace API.Controllers
         [HttpPost("webHook")]
         public async Task<IActionResult> Index()
         {
-            var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
+            ServiceResponse response = await _chckoutService.HandlePayment();
 
-            try
+            if(response.Flag == true)
             {
-                var stripeEvent = EventUtility.ParseEvent(json);
-
-                // Handle the event
-                if (stripeEvent.Type == Events.PaymentIntentSucceeded)
-                {
-                    var paymentIntent = stripeEvent.Data.Object as PaymentIntent;
-                    // Then define and call a method to handle the successful payment intent.
-                    // handlePaymentIntentSucceeded(paymentIntent);
-                    Console.WriteLine(paymentIntent?.Id);
-                    Console.WriteLine(paymentIntent.CustomerId);
-                }
-                else if (stripeEvent.Type == Events.PaymentMethodAttached)
-                {
-                    var paymentMethod = stripeEvent.Data.Object as PaymentMethod;
-                    // Then define and call a method to handle the successful attachment of a PaymentMethod.
-                    // handlePaymentMethodAttached(paymentMethod);
-                    Console.WriteLine(paymentMethod);
-                }
-                // ... handle other event types
-                else
-                {
-                    // Unexpected event type
-                    Console.WriteLine("Unhandled event type: {0}", stripeEvent.Type);
-                }
-                return Ok();
+                return Ok(response);
             }
-            catch (StripeException e)
+            else
             {
                 return BadRequest();
             }
+          
+
+            
         }
 
     }

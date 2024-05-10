@@ -17,5 +17,6 @@ namespace Application.Services.Interfaces
         public Task<UserProduct?> GetCartItem(int itemId);
 
         public Task<ServiceResponse> ViewCart();
+        Task<ServiceResponse> ClearCart(string UserId);
     }
 }

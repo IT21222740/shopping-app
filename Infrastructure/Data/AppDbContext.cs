@@ -56,7 +56,7 @@ namespace Infrastructure.Data
             {
                 entity.HasKey(o => o.OrderId);
 
-                entity.Property(O => O.PaymentId).IsRequired();
+             
                 entity.Property(O => O.OrderDate).IsRequired();
                 entity.Property(O => O.UserId).IsRequired();
 

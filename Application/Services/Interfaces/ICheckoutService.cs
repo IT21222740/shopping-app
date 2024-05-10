@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,6 @@ namespace Application.Services.Interfaces
     public interface ICheckoutService
     {
         Task<string> checkout();
-        Task<string> GetPayment(); 
+        Task<ServiceResponse> HandlePayment();
     }
 }

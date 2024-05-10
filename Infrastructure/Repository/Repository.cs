@@ -55,6 +55,7 @@ namespace Infrastructure.Repository
                 foreach (var includeProp in includePropeties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProp.Trim());
+                    
                 }
             }
 
@@ -94,6 +95,12 @@ namespace Infrastructure.Repository
         public async Task Remove(T entity)
         {
             dbSet.Remove(entity);
+            await SaveChanges();
+        }
+        
+        public async Task RemoveMany(IEnumerable<T> list)
+        {
+            dbSet.RemoveRange(list);
             await SaveChanges();
         }
 

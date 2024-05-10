@@ -145,3 +145,14 @@ C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Stripe.net.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\SendGrid.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Sinks.File.dll

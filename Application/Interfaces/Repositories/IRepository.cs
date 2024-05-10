@@ -16,5 +16,6 @@ namespace Application.Interfaces.Repositories
         Task Remove(T entity);
         Task Update(T entity);
 
+        Task RemoveMany(IEnumerable<T> list);
     }
 }

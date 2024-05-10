@@ -126,5 +126,13 @@ namespace Application.Services.Implementation
 
 
         }
+
+        public async Task<ServiceResponse> ClearCart(string UserId)
+        {
+            var list = await _cartItems.GetAll(filter: up => up.userId == UserId);
+            await _cartItems.RemoveMany(list.ToList());
+            return new ServiceResponse(true, "deleted Cart Items");
+
+        }
     }
 }

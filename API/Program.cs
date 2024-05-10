@@ -5,12 +5,14 @@ using Application.Services.Implementation;
 using Application.Services.Interfaces;
 using Infrastructure.Authentication;
 using Infrastructure.Data;
+using Infrastructure.EmailService;
 using Infrastructure.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using Stripe;
 using System.Security.Claims;
 
@@ -70,6 +72,8 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<ICartService,CartService>();
 builder.Services.AddScoped<IPamentService, PaymentService>();
 builder.Services.AddScoped<ICheckoutService, CheckoutService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IEmailSender, EmailSender>();
 
 
 Stripe.StripeConfiguration.ApiKey = "sk_test_51PBBftBKfM8g2ev1FzRWy6XtCUYaSzilfG3AlqZQQuVJkQUa39ImNmZVgsLbAEjiRJpRYhmjSWE7Dqi9gYFklmjr00RaNudRWu";
@@ -105,7 +109,6 @@ builder.Services
   });
 
 builder.Services.AddSingleton<IAuthorizationHandler, HasScopeHandler>();
-
 
 
 

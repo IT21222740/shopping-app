@@ -14,7 +14,7 @@ namespace Domain.Entities
         public double TotalAmount { get; set; }
         public string? Status { get; set; }
 
-        public required string PaymentId { get; set; }
+        public string? PaymentId { get; set; }
 
         public virtual User? User { get; set; }
         public required string UserId { get; set; }

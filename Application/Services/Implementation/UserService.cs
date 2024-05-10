@@ -59,7 +59,9 @@ namespace Application.Services.Implementation
                 {
                     UserId = signupResponse.Id,
                     Email = newUser.Email,
-                    StripeId= StripeId
+                    StripeId= StripeId,
+                    FirstName= newUser.Name
+
 
                 };
                 var result = await userRepository.CreateUser(user1);
