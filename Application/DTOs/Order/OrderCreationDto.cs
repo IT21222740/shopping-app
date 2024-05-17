@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.DTOs.Order
 {
-    public class OrderCreationDto
+    public class Payment
     {
     }
 }

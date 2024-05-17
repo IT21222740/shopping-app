@@ -1,4 +1,5 @@
 ﻿using Application.DTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,9 @@ namespace Application.Services.Interfaces
     {
         Task<string> checkout();
         Task<ServiceResponse> HandlePayment();
+        Task<ServiceResponse> GetAllUserPayments();
+        Task<ServiceResponse> GetPaymentInfoById(int orderId);
+
+
     }
 }

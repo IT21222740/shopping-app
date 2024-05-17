@@ -156,3 +156,7 @@ C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\API.xml
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\obj\Debug\net8.0\API.xml
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll

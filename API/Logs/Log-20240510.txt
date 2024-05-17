@@ -1,0 +1,796 @@
+2024-05-10 10:51:22.663 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 10:51:22.939 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 10:51:22.941 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 10:51:22.944 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 10:51:22.946 +05:30  INF  Hosting environment: Development
+2024-05-10 10:51:22.947 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 10:51:23.335 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 10:51:23.602 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 272.5386ms
+2024-05-10 10:51:23.621 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 10:51:23.621 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 10:51:23.644 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 24.061ms
+2024-05-10 10:51:23.690 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.2021ms
+2024-05-10 10:51:23.743 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 10:51:23.891 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 148.7619ms
+2024-05-10 10:51:36.032 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/WeatherForecast - null null
+2024-05-10 10:51:36.122 +05:30  INF  Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-05-10 10:51:36.139 +05:30  INF  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2024-05-10 10:51:36.147 +05:30  INF  Wheather Forcasts=> {"Date":"2024-05-11","TemperatureC":27,"TemperatureF":80,"Summary":"Cool","$type":"WeatherForecast"}
+2024-05-10 10:51:36.167 +05:30  INF  Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2024-05-10 10:51:36.183 +05:30  INF  Executed action API.Controllers.WeatherForecastController.Get (API) in 37.0103ms
+2024-05-10 10:51:36.185 +05:30  INF  Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-05-10 10:51:36.186 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/WeatherForecast - 200 null application/json; charset=utf-8 153.9096ms
+2024-05-10 10:58:02.051 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 10:58:02.343 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 10:58:02.345 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 10:58:02.348 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 10:58:02.351 +05:30  INF  Hosting environment: Development
+2024-05-10 10:58:02.352 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 10:58:06.001 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 10:58:06.248 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 252.5126ms
+2024-05-10 10:58:06.271 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 10:58:06.271 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 10:58:06.283 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 12.868ms
+2024-05-10 10:58:06.335 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.0467ms
+2024-05-10 10:58:06.393 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 10:58:06.552 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.8144ms
+2024-05-10 11:57:32.440 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 11:57:32.736 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 11:57:32.738 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 11:57:32.741 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 11:57:32.742 +05:30  INF  Hosting environment: Development
+2024-05-10 11:57:32.743 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 11:57:33.205 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 11:57:33.485 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 287.2335ms
+2024-05-10 11:57:33.503 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 11:57:33.503 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 11:57:33.512 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.3572ms
+2024-05-10 11:57:33.579 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.1955ms
+2024-05-10 11:57:33.629 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 11:57:33.761 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.4802ms
+2024-05-10 12:06:42.264 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:06:42.312 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 48.6674ms
+2024-05-10 12:06:42.332 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:06:42.333 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:06:42.337 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.988ms
+2024-05-10 12:06:42.362 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.6273ms
+2024-05-10 12:06:42.412 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:06:42.434 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.2051ms
+2024-05-10 12:07:24.593 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:07:24.612 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 18.8031ms
+2024-05-10 12:07:24.660 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:07:24.666 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.8437ms
+2024-05-10 12:07:24.674 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:07:24.709 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.0781ms
+2024-05-10 12:07:24.813 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:07:24.828 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.395ms
+2024-05-10 12:09:33.216 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 12:09:33.509 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 12:09:33.512 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 12:09:33.520 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 12:09:33.523 +05:30  INF  Hosting environment: Development
+2024-05-10 12:09:33.528 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 12:09:33.993 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:09:34.275 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 284.0787ms
+2024-05-10 12:09:34.296 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:09:34.296 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:09:34.315 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 18.5679ms
+2024-05-10 12:09:34.393 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.3586ms
+2024-05-10 12:09:34.436 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:09:34.607 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.9781ms
+2024-05-10 12:09:41.030 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/WeatherForecast - null null
+2024-05-10 12:09:41.117 +05:30  INF  Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-05-10 12:09:41.134 +05:30  INF  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2024-05-10 12:09:41.150 +05:30  INF  Wheather Forcasts=> {"Date":"2024-05-11","TemperatureC":-19,"TemperatureF":-2,"Summary":"Scorching","$type":"WeatherForecast"}
+2024-05-10 12:09:41.176 +05:30  INF  Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2024-05-10 12:09:41.192 +05:30  INF  Executed action API.Controllers.WeatherForecastController.Get (API) in 47.2146ms
+2024-05-10 12:09:41.193 +05:30  INF  Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2024-05-10 12:09:41.195 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/WeatherForecast - 200 null application/json; charset=utf-8 165.3016ms
+2024-05-10 12:12:44.805 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 12:12:45.078 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 12:12:45.082 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 12:12:45.088 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 12:12:45.092 +05:30  INF  Hosting environment: Development
+2024-05-10 12:12:45.096 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 12:12:45.466 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:12:45.735 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 271.3322ms
+2024-05-10 12:12:45.748 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:12:45.748 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:12:45.765 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 16.6324ms
+2024-05-10 12:12:45.838 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.2ms
+2024-05-10 12:12:45.868 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:12:46.031 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.4537ms
+2024-05-10 12:12:55.867 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 12:12:55.957 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:12:55.979 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 12:12:57.014 +05:30  INF  Executing StatusCodeResult, setting HTTP status code 400
+2024-05-10 12:12:57.022 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 1030.6011ms
+2024-05-10 12:12:57.025 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:12:57.033 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 400 0 null 1166.1511ms
+2024-05-10 12:13:49.455 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:13:49.490 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 35.4418ms
+2024-05-10 12:13:49.517 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:13:49.517 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:13:49.537 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 21.1445ms
+2024-05-10 12:13:49.558 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.6762ms
+2024-05-10 12:13:49.600 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:13:49.618 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.5787ms
+2024-05-10 12:19:22.468 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/login - application/json 77
+2024-05-10 12:19:22.482 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Login (API)'
+2024-05-10 12:19:22.493 +05:30  INF  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller API.Controllers.UserController (API).
+2024-05-10 12:19:24.831 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-10 12:19:24.840 +05:30  INF  Executed action API.Controllers.UserController.Login (API) in 2340.9987ms
+2024-05-10 12:19:24.843 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Login (API)'
+2024-05-10 12:19:24.846 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/login - 200 null application/json; charset=utf-8 2378.596ms
+2024-05-10 12:19:47.225 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 12:19:48.013 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:19:48.019 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 12:19:48.699 +05:30  ERR  An error occurred using the connection to database '' on server ''.
+2024-05-10 12:19:48.739 +05:30  ERR  An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.AppDbContext'.
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+
+2024-05-10 12:19:50.085 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 2059.828ms
+2024-05-10 12:19:50.088 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:19:50.118 +05:30  ERR  An unhandled exception has occurred while executing the request.System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Microsoft.Data.SqlClient.SqlConnection.PermissionDemand()
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Infrastructure.Repository.Repository`1.GetAll(Expression`1 filter, String includePropeties, Boolean tracked) in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Infrastructure\Repository\Repository.cs:line 91
+   at Application.Services.Implementation.OrderService.GetUserOrders(String userId) in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\Services\Implementation\OrderService.cs:line 92
+   at Application.Services.Implementation.CheckoutService.GetAllUserPayments() in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\Services\Implementation\CheckoutService.cs:line 69
+   at API.Controllers.CheckoutController.UserPayments()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-10 12:19:50.203 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 500 null text/plain; charset=utf-8 2977.9306ms
+2024-05-10 12:22:04.969 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 12:22:04.985 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:22:04.987 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 12:22:06.507 +05:30  INF  Executed DbCommand (80ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId], [t].[OrderId], [t].[ProductId], [t].[OrderQty], [t].[UnitPrice], [t].[ProductId0], [t].[Description], [t].[Discount], [t].[ImageUrl], [t].[Name], [t].[Price], [t].[ProductCategoryId], [t].[Quantity]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [o0].[OrderId], [o0].[ProductId], [o0].[OrderQty], [o0].[UnitPrice], [p].[ProductId] AS [ProductId0], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+    FROM [OrderProducts] AS [o0]
+    INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[ProductId]
+) AS [t] ON [o].[OrderId] = [t].[OrderId]
+WHERE [o].[UserId] = @__userId_0
+ORDER BY [o].[OrderId], [t].[OrderId], [t].[ProductId]
+2024-05-10 12:22:06.556 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Entities.Order, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 12:22:06.581 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 1582.2605ms
+2024-05-10 12:22:06.583 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:22:06.610 +05:30  ERR  An unhandled exception has occurred while executing the request.System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderId.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-10 12:22:06.860 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 500 null text/plain; charset=utf-8 1891.0329ms
+2024-05-10 12:22:21.727 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 12:22:22.046 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 12:22:22.050 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 12:22:22.058 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 12:22:22.064 +05:30  INF  Hosting environment: Development
+2024-05-10 12:22:22.068 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 12:22:22.516 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:22:22.818 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 310.2956ms
+2024-05-10 12:22:22.835 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:22:22.835 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:22:22.844 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 10.1631ms
+2024-05-10 12:22:22.895 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.656ms
+2024-05-10 12:22:22.930 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:22:23.103 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 174.152ms
+2024-05-10 12:23:00.461 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 12:23:22.596 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:23:22.620 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 12:23:25.211 +05:30  INF  Executed DbCommand (79ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId], [t].[OrderId], [t].[ProductId], [t].[OrderQty], [t].[UnitPrice], [t].[ProductId0], [t].[Description], [t].[Discount], [t].[ImageUrl], [t].[Name], [t].[Price], [t].[ProductCategoryId], [t].[Quantity]
+FROM [Orders] AS [o]
+LEFT JOIN (
+    SELECT [o0].[OrderId], [o0].[ProductId], [o0].[OrderQty], [o0].[UnitPrice], [p].[ProductId] AS [ProductId0], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+    FROM [OrderProducts] AS [o0]
+    INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[ProductId]
+) AS [t] ON [o].[OrderId] = [t].[OrderId]
+WHERE [o].[UserId] = @__userId_0
+ORDER BY [o].[OrderId], [t].[OrderId], [t].[ProductId]
+2024-05-10 12:23:25.270 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Entities.Order, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 12:23:25.304 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 2670.7366ms
+2024-05-10 12:23:25.308 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 12:23:25.357 +05:30  ERR  An unhandled exception has occurred while executing the request.System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderProduct.Order.OrderId.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-10 12:23:25.633 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 500 null text/plain; charset=utf-8 25173.062ms
+2024-05-10 12:24:19.370 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 12:24:19.404 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 34.3835ms
+2024-05-10 12:24:19.435 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 12:24:19.435 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 12:24:19.451 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 16.708ms
+2024-05-10 12:24:19.481 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.8012ms
+2024-05-10 12:24:19.598 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 12:24:19.624 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.1226ms
+2024-05-10 14:57:15.235 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 14:57:15.964 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 14:57:15.969 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 14:57:15.980 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 14:57:15.986 +05:30  INF  Hosting environment: Development
+2024-05-10 14:57:15.994 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 14:57:16.957 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 14:57:17.858 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 917.7369ms
+2024-05-10 14:57:17.976 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 14:57:17.998 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 21.6224ms
+2024-05-10 14:57:18.008 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 14:57:18.145 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.1428ms
+2024-05-10 14:57:18.291 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 14:57:18.585 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 294.6152ms
+2024-05-10 14:57:57.092 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 14:57:58.642 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 14:57:58.677 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 14:58:02.330 +05:30  INF  Executed DbCommand (88ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[UserId] = @__userId_0
+2024-05-10 14:58:02.402 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentInfoDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 14:58:02.430 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 3741.6448ms
+2024-05-10 14:58:02.433 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 14:58:02.453 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 200 null application/json; charset=utf-8 5362.6958ms
+2024-05-10 15:01:16.961 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 15:01:17.007 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 46.769ms
+2024-05-10 15:01:17.057 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 15:01:17.060 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 15:01:17.066 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 8.8513ms
+2024-05-10 15:01:17.115 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.0002ms
+2024-05-10 15:01:17.355 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 15:01:17.389 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.0563ms
+2024-05-10 15:41:49.087 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 15:41:49.559 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 15:41:49.565 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 15:41:49.578 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 15:41:49.583 +05:30  INF  Hosting environment: Development
+2024-05-10 15:41:49.588 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 15:41:50.262 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 15:41:50.876 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 628.4598ms
+2024-05-10 15:41:50.903 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 15:41:50.903 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 15:41:50.937 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 35.1498ms
+2024-05-10 15:41:51.025 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.6028ms
+2024-05-10 15:41:51.407 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 15:41:51.767 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 360.314ms
+2024-05-10 15:42:12.372 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 15:42:13.712 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 15:42:13.747 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:42:17.289 +05:30  INF  Executed DbCommand (90ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[UserId] = @__userId_0
+2024-05-10 15:42:17.358 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentInfoDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 15:42:17.386 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 3626.963ms
+2024-05-10 15:42:17.390 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 15:42:17.404 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 200 null application/json; charset=utf-8 5032.4682ms
+2024-05-10 15:42:41.070 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=33 - null null
+2024-05-10 15:42:41.097 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:42:41.113 +05:30  INF  Route matched with {action = "GetPaymentInfo", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentInfo(Int32) on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:44:24.207 +05:30  INF  Executed action API.Controllers.CheckoutController.GetPaymentInfo (API) in 103088.6959ms
+2024-05-10 15:44:24.211 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:44:24.264 +05:30  ERR  An unhandled exception has occurred while executing the request.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Application.Services.Implementation.CheckoutService.GetPaymentInfoById(Int32 orderId)
+   at API.Controllers.CheckoutController.GetPaymentInfo(Int32 orderId) in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\Controllers\CheckoutController.cs:line 69
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-10 15:44:24.301 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=33 - 500 null text/plain; charset=utf-8 103231.3175ms
+2024-05-10 15:44:40.101 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=33 - null null
+2024-05-10 15:44:40.110 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:44:40.119 +05:30  INF  Route matched with {action = "GetPaymentInfo", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentInfo(Int32) on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:44:40.314 +05:30  INF  Executed action API.Controllers.CheckoutController.GetPaymentInfo (API) in 190.1367ms
+2024-05-10 15:44:40.317 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:44:40.328 +05:30  ERR  An unhandled exception has occurred while executing the request.System.MissingMethodException: Attempted to access a missing method.
+   at Application.Services.Implementation.CheckoutService..ctor(ITokenService tokenService, IPamentService pamentService, IRepository`1 userRepository, IRepository`1 userProdcuts, IOrderService orderService, IEmailSender emailSender)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method34(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-10 15:44:40.351 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=33 - 500 null text/plain; charset=utf-8 250.4056ms
+2024-05-10 15:45:07.487 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 15:45:08.277 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 15:45:08.282 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 15:45:08.293 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 15:45:08.298 +05:30  INF  Hosting environment: Development
+2024-05-10 15:45:08.303 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 15:45:10.768 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 15:45:11.292 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 535.8287ms
+2024-05-10 15:45:11.309 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 15:45:11.308 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 15:45:11.340 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 32.0613ms
+2024-05-10 15:45:11.433 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.1605ms
+2024-05-10 15:45:11.524 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 15:45:11.829 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 305.0503ms
+2024-05-10 15:45:32.979 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 15:45:34.237 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 15:45:34.271 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:45:37.766 +05:30  INF  Executed DbCommand (106ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[UserId] = @__userId_0
+2024-05-10 15:45:37.835 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentInfoDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 15:45:37.866 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 3582.1535ms
+2024-05-10 15:45:37.869 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 15:45:37.884 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 200 null application/json; charset=utf-8 4905.2077ms
+2024-05-10 15:45:43.915 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=33 - null null
+2024-05-10 15:45:43.926 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:45:43.941 +05:30  INF  Route matched with {action = "GetPaymentInfo", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentInfo(Int32) on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:45:44.221 +05:30  INF  Executed DbCommand (12ms) [Parameters=[@__orderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[ProductId], [o].[OrderQty], [o].[UnitPrice], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [OrderProducts] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[ProductId]
+WHERE [o].[OrderId] = @__orderId_0
+2024-05-10 15:45:44.233 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Domain.Entities.OrderProduct, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 15:45:44.258 +05:30  INF  Executed action API.Controllers.CheckoutController.GetPaymentInfo (API) in 310.6775ms
+2024-05-10 15:45:44.261 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:45:44.309 +05:30  ERR  An unhandled exception has occurred while executing the request.System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.Product.OrderProduct.OrderId.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-10 15:45:44.498 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=33 - 500 null text/plain; charset=utf-8 583.5247ms
+2024-05-10 15:54:04.273 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-10 15:54:04.702 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-10 15:54:04.706 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-10 15:54:04.715 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-10 15:54:04.719 +05:30  INF  Hosting environment: Development
+2024-05-10 15:54:04.723 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-10 15:54:07.105 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-10 15:54:07.608 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 514.5331ms
+2024-05-10 15:54:07.630 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-10 15:54:07.630 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-10 15:54:07.666 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 36.5682ms
+2024-05-10 15:54:07.753 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 123.6455ms
+2024-05-10 15:54:07.851 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-10 15:54:08.140 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 289.7216ms
+2024-05-10 15:54:57.879 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-user-payments - null null
+2024-05-10 15:54:59.037 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 15:54:59.065 +05:30  INF  Route matched with {action = "UserPayments", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:55:02.458 +05:30  INF  Executed DbCommand (93ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[UserId] = @__userId_0
+2024-05-10 15:55:02.535 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentInfoDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 15:55:02.569 +05:30  INF  Executed action API.Controllers.CheckoutController.UserPayments (API) in 3491.2019ms
+2024-05-10 15:55:02.572 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.UserPayments (API)'
+2024-05-10 15:55:02.588 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-user-payments - 200 null application/json; charset=utf-8 4719.1937ms
+2024-05-10 15:55:14.533 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=30 - null null
+2024-05-10 15:55:14.542 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:55:14.558 +05:30  INF  Route matched with {action = "GetPaymentInfo", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentInfo(Int32) on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:55:14.828 +05:30  INF  Executed DbCommand (17ms) [Parameters=[@__orderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[ProductId], [o].[OrderQty], [o].[UnitPrice], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [OrderProducts] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[ProductId]
+WHERE [o].[OrderId] = @__orderId_0
+2024-05-10 15:55:14.841 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 15:55:14.853 +05:30  INF  Executed action API.Controllers.CheckoutController.GetPaymentInfo (API) in 289.3318ms
+2024-05-10 15:55:14.855 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:55:14.858 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=30 - 200 null application/json; charset=utf-8 325.1969ms
+2024-05-10 15:58:20.504 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=30 - null null
+2024-05-10 15:58:20.528 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:58:20.530 +05:30  INF  Route matched with {action = "GetPaymentInfo", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentInfo(Int32) on controller API.Controllers.CheckoutController (API).
+2024-05-10 15:58:33.759 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@__orderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[ProductId], [o].[OrderQty], [o].[UnitPrice], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [OrderProducts] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[ProductId]
+WHERE [o].[OrderId] = @__orderId_0
+2024-05-10 15:59:12.161 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-10 15:59:12.186 +05:30  INF  Executed action API.Controllers.CheckoutController.GetPaymentInfo (API) in 51652.6152ms
+2024-05-10 15:59:12.190 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.GetPaymentInfo (API)'
+2024-05-10 15:59:12.193 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Get-User-payments-byId?orderId=30 - 200 null application/json; charset=utf-8 51693.6846ms

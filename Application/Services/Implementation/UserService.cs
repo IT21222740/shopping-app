@@ -3,6 +3,7 @@ using Application.Interfaces;
 using Application.Interfaces.Repositories;
 using Application.Services.Interfaces;
 using Domain.Entities;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ namespace Application.Services.Implementation
         private readonly ITokenService tokenService;
         private readonly IAddressRepository addressRepository;
         private readonly IPamentService pamentService;
+        
+       
         public UserService(IUserRepository _userRepostory, IAuthentication _authentication, ITokenService _tokenService, IAddressRepository _addressRepository, IPamentService _pamentService)
         {
             userRepository = _userRepostory;
@@ -26,6 +29,7 @@ namespace Application.Services.Implementation
             tokenService = _tokenService;
             addressRepository = _addressRepository;
             pamentService = _pamentService;
+            
         }
 
         public async Task<ServiceResponse> AddAddress(AddressDTO addressDto)

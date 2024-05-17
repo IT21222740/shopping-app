@@ -14,5 +14,9 @@ namespace Application.Services.Interfaces
         Task<ServiceResponse> AddOrder(IEnumerable<UserProduct >userProducts);
         Task<ServiceResponse> UpdateOrder(PaymentCreation paymentResponse);
         Task<Order> GetCurrentOrderInfo(int orderId);
+        Task<IEnumerable<PaymentInfoDTO>> GetUserOrders(string userId);
+  
+
+
     }
 }

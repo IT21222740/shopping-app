@@ -18,5 +18,8 @@ namespace Application.Services.Interfaces
 
         public Task<ServiceResponse> ViewCart();
         Task<ServiceResponse> ClearCart(string UserId);
+
+        Task<IEnumerable<CartItemResponse>> GetItems(string id);
+        Task<bool> checkAvailabilty();
     }
 }

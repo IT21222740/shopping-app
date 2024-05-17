@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y/iPVb/0KH98/YBVnd0r0n5EfKQpw00jq3GekbKJaKuLZoy607m6l4C4uOfXgwNyCjvt4SHA1bsRNA/81HVMNA==",
+  "dgSpecHash": "2dgFlVPjMh2jMPtIGVKczeNCAhMvCPgbTcEy7qItpjLr88pPmycauX8MQNRzotgvdDxbwdC/WTPAld1VhH32YQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\iTela\\Documents\\Assignment\\sample project structure\\ShoppingApp\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -33,13 +33,13 @@
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
-    "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.1\\microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",

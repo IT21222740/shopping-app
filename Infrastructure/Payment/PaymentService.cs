@@ -101,6 +101,7 @@ public class PaymentService : IPamentService // Corrected the interface name
                     };
 
                     Console.WriteLine(paymentCreation);
+                    
                     return new WebHookResponse(true,CheckoutResponse:paymentCreation);
                 }
                 else
@@ -108,15 +109,13 @@ public class PaymentService : IPamentService // Corrected the interface name
                     return new WebHookResponse(false);
                 }
 
-                // Then define and call a method to handle the successful payment intent.
-                // handlePaymentIntentSucceeded(paymentIntent);
 
 
 
             }
             else
             {
-                return new WebHookResponse(false);
+                return new WebHookResponse(true);
             }
 
         }

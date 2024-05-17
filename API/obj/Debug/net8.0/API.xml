@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.CartController.AddToCart(Application.DTOs.Cart.CartItemRequset)">
+            <summary>
+            Add a item to the cart
+            </summary>
+            <param name="cartItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartController.ModifyCart(Application.DTOs.Cart.CartItemRequset)">
+            <summary>
+            Update items by sending productId and amount
+            </summary>
+            <param name="cartItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartController.DeleteCartItem(Application.DTOs.Cart.CartItemRequset)">
+            <summary>
+            delete Items from the cart
+            </summary>
+            <param name="cartItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartController.GetAllCartItems">
+            <summary>
+            View Items in the cart
+            View Items in the cart
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

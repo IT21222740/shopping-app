@@ -14,6 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Stripe;
+using System.Reflection;
 using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,7 +29,10 @@ builder.Services.AddEndpointsApiExplorer();
 // Add Swagger services
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo API", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Shopping App API", Version = "v1" });
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    options.IncludeXmlComments(xmlPath);
 
     // Define the JWT Bearer authentication scheme
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -40,6 +44,7 @@ builder.Services.AddSwaggerGen(options =>
         Scheme = "bearer",
         BearerFormat = "JWT"
     });
+
 
     // Make sure Swagger UI requires a Bearer token to access the API
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -110,7 +115,11 @@ builder.Services
 
 builder.Services.AddSingleton<IAuthorizationHandler, HasScopeHandler>();
 
-
+//
+var logger = Serilog.Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration( builder.Configuration ).CreateLogger();
+//builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
 
 var app = builder.Build();
 

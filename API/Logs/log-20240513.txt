@@ -1,0 +1,85 @@
+2024-05-13 09:29:42.332 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:29:43.061 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-13 09:29:43.068 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-13 09:29:43.079 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-13 09:29:43.085 +05:30  INF  Hosting environment: Development
+2024-05-13 09:29:43.090 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-13 09:29:49.891 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-13 09:29:51.758 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-13 09:29:51.759 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:29:51.759 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 1889.467ms
+2024-05-13 09:29:51.784 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 25.1004ms
+2024-05-13 09:29:51.964 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 206.4098ms
+2024-05-13 09:29:52.073 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-13 09:29:52.466 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 393.4326ms
+2024-05-13 09:54:42.328 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:54:43.236 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-13 09:54:43.242 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-13 09:54:43.252 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-13 09:54:43.259 +05:30  INF  Hosting environment: Development
+2024-05-13 09:54:43.265 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-13 09:54:47.009 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-13 09:54:47.531 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 534.4219ms
+2024-05-13 09:54:47.576 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:54:47.578 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-13 09:54:47.589 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 14.3374ms
+2024-05-13 09:54:48.083 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 507.3616ms
+2024-05-13 09:54:48.197 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-13 09:54:48.530 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 333.1585ms
+2024-05-13 09:55:09.476 +05:30  INF  Application is shutting down...
+2024-05-13 09:55:25.580 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:55:26.110 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-13 09:55:26.116 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-13 09:55:26.129 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-13 09:55:26.134 +05:30  INF  Hosting environment: Development
+2024-05-13 09:55:26.141 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-13 09:55:27.011 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-13 09:55:27.457 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 457.6073ms
+2024-05-13 09:55:27.506 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:55:27.506 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-13 09:55:27.533 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 26.8929ms
+2024-05-13 09:55:27.616 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 110.3467ms
+2024-05-13 09:55:27.936 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-13 09:55:28.214 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 279.3429ms
+2024-05-13 10:08:03.604 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/login - application/json 77
+2024-05-13 10:08:03.718 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Login (API)'
+2024-05-13 10:08:03.758 +05:30  INF  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller API.Controllers.UserController (API).
+2024-05-13 10:08:06.056 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-13 10:08:06.071 +05:30  INF  Executed action API.Controllers.UserController.Login (API) in 2304.324ms
+2024-05-13 10:08:06.072 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Login (API)'
+2024-05-13 10:08:06.077 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/login - 200 null application/json; charset=utf-8 2473.874ms
+2024-05-13 10:54:17.390 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/webHook - application/json; charset=utf-8 2749
+2024-05-13 10:54:17.396 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-13 10:54:17.410 +05:30  INF  Route matched with {action = "Index", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.CheckoutController (API).
+2024-05-13 10:54:18.512 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-13 10:54:18.520 +05:30  INF  Executed action API.Controllers.CheckoutController.Index (API) in 1102.0104ms
+2024-05-13 10:54:18.522 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-13 10:54:18.527 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/webHook - 200 null application/json; charset=utf-8 1137.8194ms
+2024-05-13 11:39:53.508 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 11:39:53.792 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-13 11:39:53.796 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-13 11:39:53.802 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-13 11:39:53.805 +05:30  INF  Hosting environment: Development
+2024-05-13 11:39:53.808 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-13 11:39:54.408 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-13 11:39:54.742 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 341.0824ms
+2024-05-13 11:39:54.771 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-13 11:39:54.771 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 11:39:54.793 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 20.9739ms
+2024-05-13 11:39:54.829 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.5583ms
+2024-05-13 11:39:54.874 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-13 11:39:55.023 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.4179ms
+2024-05-13 23:10:41.964 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 23:10:42.397 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-13 23:10:42.400 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-13 23:10:42.406 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-13 23:10:42.409 +05:30  INF  Hosting environment: Development
+2024-05-13 23:10:42.412 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-13 23:10:45.969 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-13 23:10:46.332 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 373.335ms
+2024-05-13 23:10:46.348 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 23:10:46.348 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-13 23:10:46.368 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 20.7935ms
+2024-05-13 23:10:46.415 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.0154ms
+2024-05-13 23:10:46.473 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-13 23:10:46.638 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.491ms
