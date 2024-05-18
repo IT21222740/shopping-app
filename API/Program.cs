@@ -1,3 +1,4 @@
+using Application.EmailService;
 using Application.Interfaces;
 using Application.Interfaces.Repositories;
 using Application.Middleware;
@@ -12,10 +13,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SendGrid.Extensions.DependencyInjection;
 using Serilog;
 using Stripe;
 using System.Reflection;
 using System.Security.Claims;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -78,7 +81,21 @@ builder.Services.AddScoped<ICartService,CartService>();
 builder.Services.AddScoped<IPamentService, PaymentService>();
 builder.Services.AddScoped<ICheckoutService, CheckoutService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddScoped<IEmailSenderService, EmailSenderService>();
+
+builder.Services.AddSingleton(p => new EmailServiceSettings
+{
+    SenderName = builder.Configuration.GetValue<string>("EmailServiceSettings:SenderName") ?? string.Empty,
+    SenderEmail = builder.Configuration.GetValue<string>("EmailServiceSettings:SenderEmail") ?? string.Empty,
+    SendGridKey = builder.Configuration.GetValue<string>("EmailServiceSettings:SendGridKey") ?? string.Empty,
+    WelcomeEmailTemplateId = builder.Configuration.GetValue<string>("EmailServiceSettings:Templates:WelcomeEmailTemplateId") ?? string.Empty,
+    PaymentSuccessfulTemplateId = builder.Configuration.GetValue<string>("EmailServiceSettings:Templates:PaymentSuccessfulTemplateId") ?? string.Empty
+});
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddSendGrid(options =>
+            {
+                options.ApiKey = builder.Configuration.GetValue<string>("EmailServiceSettings:SendGridKey");
+            });
 
 
 Stripe.StripeConfiguration.ApiKey = "sk_test_51PBBftBKfM8g2ev1FzRWy6XtCUYaSzilfG3AlqZQQuVJkQUa39ImNmZVgsLbAEjiRJpRYhmjSWE7Dqi9gYFklmjr00RaNudRWu";

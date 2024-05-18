@@ -23,10 +23,11 @@ namespace Application.Services.Implementation
         private readonly IRepository<User> _userRepository;
         private readonly IRepository<UserProduct> _userProducts;
         private readonly IOrderService _orderService;
-        private readonly IEmailSender _emailSender;
+        private readonly IEmailSenderService _emailSender;
         private readonly IRepository<OrderProduct> _orderProducts;
         private readonly ICartService _cartService;
-        public CheckoutService(ITokenService tokenService, IPamentService pamentService,IRepository<User> userRepository,IRepository<UserProduct> userProdcuts, IOrderService orderService,IEmailSender emailSender,IRepository<OrderProduct> orderProducts, ICartService cartService) {
+        public CheckoutService(ITokenService tokenService, IPamentService pamentService, IRepository<User> userRepository, IRepository<UserProduct> userProdcuts, IOrderService orderService, IEmailSenderService emailSender, IRepository<OrderProduct> orderProducts, ICartService cartService)
+        {
             _tokenService = tokenService;
             _pamentService = pamentService;
             _userRepository = userRepository;

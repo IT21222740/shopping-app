@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    public interface IEmailSender
+    public interface IEmailSenderService
     {
         Task Execute(Order order);
     }
