@@ -21,15 +21,14 @@ namespace UnitTests.Services
         private readonly Mock<IRepository<Product>> _mockProductRepository;
         private readonly Mock<ILogger<ICartService>> _mockLogger;
         private readonly CartService _cartService;
-        private readonly Mock<ICartService> _mockCartService;
+        
         public CartSerrviceTests()
         {
             _mockUserProductRepo = new Mock<IRepository<UserProduct>>();
             _mockTokenService = new Mock<ITokenService>();
             _mockProductRepository = new Mock<IRepository<Product>>();
             _mockLogger = new Mock<ILogger<ICartService>>();
-            _mockCartService = new Mock<ICartService>();
-
+            
             _cartService = new CartService(
                 cartItems: _mockUserProductRepo.Object,
                 tokenService: _mockTokenService.Object,

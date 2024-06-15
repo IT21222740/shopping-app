@@ -16,9 +16,10 @@ namespace Application.Services.Implementation
         private readonly IRepository<Address> addressRepository;
         private readonly IPamentService pamentService;
         private readonly IEmailSender emailSender;
+        private readonly IUnitOfWork  unitOfWork;
         
        
-        public UserService(IUserRepository _userRepostory, IAuthentication _authentication, ITokenService _tokenService, IPamentService _pamentService,IRepository<Address> _addressRepository,IEmailSender _emailSender)
+        public UserService(IUserRepository _userRepostory, IAuthentication _authentication, ITokenService _tokenService, IPamentService _pamentService,IRepository<Address> _addressRepository,IEmailSender _emailSender,IUnitOfWork _unitOfWork)
         {
             userRepository = _userRepostory;
             authentication = _authentication;
@@ -26,7 +27,7 @@ namespace Application.Services.Implementation
             addressRepository = _addressRepository;
             pamentService = _pamentService;
             emailSender = _emailSender;
-            
+            unitOfWork = _unitOfWork;
         }
 
         public async Task<ServiceResponse> AddAddress(AddressDTO addressDto)
@@ -58,40 +59,51 @@ namespace Application.Services.Implementation
 
             if (signupResponse != null)
             {
-                var user = new User
+                try
                 {
-                    UserId = signupResponse.Id,
-                    Email = newUser.Email,
-                    StripeId= StripeId,
-                    FirstName= newUser.FirstName,
-                    LastName= newUser.LastName,
-                    PhoneNumber= newUser.PhoneNumber,
-
-
-                };
-                var result = await userRepository.CreateUser(user);
-                if (result != null)
-                {
-
-                    var address = new Address
+                    await unitOfWork.BeginTransactionAsync();
+                    var user = new User
                     {
-                        StreetName = newUser.Address.StreetName,
-                        City = newUser.Address.City,
-                        PostalCode = newUser.Address.PostalCode,
-                        UserId = user.UserId,
-                        IsPrimary = true
+                        UserId = signupResponse.Id,
+                        Email = newUser.Email,
+                        StripeId = StripeId,
+                        FirstName = newUser.FirstName,
+                        LastName = newUser.LastName,
+                        PhoneNumber = newUser.PhoneNumber,
+
 
                     };
+                    var result = await userRepository.CreateUser(user);
+                    if (result != null)
+                    {
 
-                    await addressRepository.Add(address);
-                    await emailSender.ExecuteReg(user);
-                    return new ServiceResponse(true, "User Registration SuccessFull");
+                        var address = new Address
+                        {
+                            StreetName = newUser.Address.StreetName,
+                            City = newUser.Address.City,
+                            PostalCode = newUser.Address.PostalCode,
+                            UserId = user.UserId,
+                            IsPrimary = true
+
+                        };
+
+                        await addressRepository.Add(address);
+                        await emailSender.ExecuteReg(user);
+                        await unitOfWork.CommitAsync();
+                        return new ServiceResponse(true, "User Registration SuccessFull");
+                    }
+                    else
+                    {
+                        return new ServiceResponse(false, "User Registration Failed");
+                    }
+
                 }
-                else
+                catch (Exception ex)
                 {
-                    return new ServiceResponse(false, "User Registration Failed");
+                    await unitOfWork.RollbackAsync();
+                    return new ServiceResponse(false, "User Registration Failed",ex);
                 }
-               
+                
             }
             else
             {
