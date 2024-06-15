@@ -16,8 +16,9 @@ namespace UnitTests.Services
         private readonly Mock<ITokenService> _tokenService;
         private readonly Mock<ICartService> _cartService;
         private readonly Mock<IRepository<Product>> _productRepository;
+        private readonly Mock<IUnitOfWork> _unitOfWork;
         private readonly OrderService _orderService;
-
+        
         public OrderServiceTests()
         {
             _orderProductRepository = new Mock<IRepository<OrderProduct>>();
@@ -25,13 +26,15 @@ namespace UnitTests.Services
             _tokenService = new Mock<ITokenService>();
             _cartService = new Mock<ICartService>();
             _productRepository = new Mock<IRepository<Product>>();
+            _unitOfWork = new Mock<IUnitOfWork>();
 
             _orderService = new OrderService(
                _orderRepository.Object,
                _orderProductRepository.Object,
                _tokenService.Object,   
                _cartService.Object,     
-               _productRepository.Object 
+               _productRepository.Object,
+               _unitOfWork.Object
            );
 
           

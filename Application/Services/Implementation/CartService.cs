@@ -4,24 +4,20 @@ using Application.DTOs.Product;
 using Application.Interfaces.Repositories;
 using Application.Services.Interfaces;
 using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
 namespace Application.Services.Implementation
 {
-    public class CartService:ICartService
+    public class CartService : ICartService
     {
         private readonly IRepository<UserProduct> _cartItems;
         private readonly ITokenService _tokenService;
         private readonly IRepository<Product> _productRepository;
         private readonly ILogger<ICartService> _logger;
 
-        
-        public CartService(IRepository<UserProduct> cartItems,ITokenService tokenService, IRepository<Product> productRespository,ILogger<ICartService> logger) {
+
+        public CartService(IRepository<UserProduct> cartItems, ITokenService tokenService, IRepository<Product> productRespository, ILogger<ICartService> logger)
+        {
             _cartItems = cartItems;
             _tokenService = tokenService;
             _productRepository = productRespository;
@@ -39,39 +35,32 @@ namespace Application.Services.Implementation
                 return new ServiceResponse(false, "Login session expired. Please login.");
             }
 
-            try
+            // Attempt to retrieve the cart item for the specified product
+            UserProduct? cartItem = await GetCartItem(item.ProductId);
+
+            if (cartItem != null)
             {
-                // Attempt to retrieve the cart item for the specified product
-                UserProduct? cartItem = await GetCartItem(item.ProductId);
+                // Update the quantity if the item already exists in the cart
+                cartItem.Quantity = item.Quantity;
+                await _cartItems.Update(cartItem);
 
-                if (cartItem != null)
-                {
-                    // Update the quantity if the item already exists in the cart
-                    cartItem.Quantity = item.Quantity;
-                    await _cartItems.Update(cartItem);
-
-                    _logger.LogInformation("Cart item updated successfully: {@CartItem}", cartItem);
-                    return new ServiceResponse(true, "Cart Item Updated Sucessfully");
-                }
-
-                // Create a new cart item if it does not exist
-                UserProduct newCartItem = new UserProduct()
-                {
-                    userId = userId, // Corrected the property name to follow convention
-                    Quantity = item.Quantity,
-                    ProductId = item.ProductId,
-                };
-                await _cartItems.Add(newCartItem);
-
-                _logger.LogInformation("Cart item successfully added");
-                return new ServiceResponse(true, "Added successfully");
+                _logger.LogInformation("Cart item updated successfully: {@CartItem}", cartItem);
+                return new ServiceResponse(true, "Cart Item Updated Sucessfully");
             }
-            catch (Exception ex)
+
+            // Create a new cart item if it does not exist
+            UserProduct newCartItem = new UserProduct()
             {
-                // Log the exception and return a failure response
-                _logger.LogError(ex, "An error occurred while adding/updating the cart item");
-                return new ServiceResponse(false, "An error occurred while processing your request. Please try again.");
-            }
+                userId = userId, // Corrected the property name to follow convention
+                Quantity = item.Quantity,
+                ProductId = item.ProductId,
+            };
+            await _cartItems.Add(newCartItem);
+
+            _logger.LogInformation("Cart item successfully added");
+            return new ServiceResponse(true, "Added successfully");
+            
+
         }
 
 
@@ -90,7 +79,7 @@ namespace Application.Services.Implementation
             }
             else
             {
-                //_logger.LogError("Cart Item not found");
+                _logger.LogError("Cart Item not found");
                 return new ServiceResponse(false, "Cart Item not found");
             }
         }
@@ -101,16 +90,16 @@ namespace Application.Services.Implementation
             if (cartItem != null)
             {
                 await _cartItems.Remove(cartItem);
-               // _logger.LogInformation("Cart Item remove successfully");
+                _logger.LogInformation("Cart Item remove successfully");
                 return new ServiceResponse(true, "Removed Sucessfully");
             }
             else
             {
-               // _logger.LogError("Cart Item deletion unsucessful");
-                return new ServiceResponse(false,"wrong Product ID");
+                _logger.LogError("Cart Item deletion unsucessful");
+                return new ServiceResponse(false, "wrong Product ID");
             }
-           
-            
+
+
         }
 
         public async Task<ServiceResponse> ViewCart()
@@ -119,6 +108,7 @@ namespace Application.Services.Implementation
 
             if (userId == null)
             {
+                _logger.LogInformation("User Id does not exits");
                 return new ServiceResponse(false, "Login session expired. Please Login");
             }
             var userCartitems = await _cartItems.GetAll(filter: up => up.userId == userId, includePropeties: "Product");
@@ -134,19 +124,21 @@ namespace Application.Services.Implementation
                     ImageUrl = up.Product.ImageUrl,
                     Description = up.Product.Description,
                     Name = up.Product.Name,
-                    Price= up.Product.Price,
-                    Quantity= up.Product.Quantity,
-                    Discount= up.Product.Discount,
-                    ProductCategoryId=up.Product.ProductCategoryId
+                    Price = up.Product.Price,
+                    Quantity = up.Product.Quantity,
+                    Discount = up.Product.Discount,
+                    ProductCategoryId = up.Product.ProductCategoryId
 
                 }
 
             }).ToList();
+            _logger.LogInformation("Cart Items {@CartItems}",cart);
             return new ServiceResponse(true, "Cart Items", cart);
-           
+
         }
+
         public async Task<IEnumerable<CartItemResponse>> GetItems(string id)
-        {                   
+        {
             var userCartitems = await _cartItems.GetAll(filter: up => up.userId == id, includePropeties: "Product");
 
             var cart = userCartitems.Select(up => new CartItemResponse
@@ -156,7 +148,7 @@ namespace Application.Services.Implementation
                 Quantity = up.Quantity
 
             }).ToList();
-
+            _logger.LogInformation("Cart Items {@CartItems}", cart);
             return cart;
         }
 
@@ -166,6 +158,7 @@ namespace Application.Services.Implementation
 
             UserProduct? cartItem = await _cartItems.Get(filter: up => up.userId == userId && up.ProductId == itemId);
 
+            _logger.LogInformation("Cart Items {@CartItem}", cartItem);
             return cartItem;
 
 
@@ -174,12 +167,14 @@ namespace Application.Services.Implementation
         public async Task<ServiceResponse> ClearCart(string UserId)
         {
             var list = await _cartItems.GetAll(filter: up => up.userId == UserId);
-          
+
             if (list.Count() == 0)
             {
                 throw new Exception("Wrong operation: No cart items found for the specified user.");
             }
             await _cartItems.RemoveMany(list.ToList());
+
+            _logger.LogInformation("deleted Cart Items {@CartItems}", list);
             return new ServiceResponse(true, "deleted Cart Items");
 
         }
@@ -187,19 +182,22 @@ namespace Application.Services.Implementation
         public async Task<bool> checkAvailabilty()
         {
             var userId = _tokenService.GetUserId();
-            var cart = await _cartItems.GetAll(c=>c.userId == userId);
-            foreach (var item in cart) {
+            var cart = await _cartItems.GetAll(c => c.userId == userId);
+            foreach (var item in cart)
+            {
                 var product = await _productRepository.Get(p => p.ProductId == item.ProductId);
-                if(product != null)
+                if (product != null)
                 {
-                    if(product.Quantity < item.Quantity)
+                    if (product.Quantity < item.Quantity)
                     {
+                        _logger.LogInformation("Item does not available {@CartItem}", item);
                         return false;
                     }
                 }
-                
-                
+
+
             }
+            _logger.LogInformation("All the Items available {@CartItems}", cart);
             return true;
         }
     }
