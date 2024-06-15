@@ -2729,3 +2729,234 @@ WHERE [u].[userId] = @__userId_0
 2024-06-15 17:09:32.511 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.7161ms
 2024-06-15 17:09:32.718 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
 2024-06-15 17:09:32.771 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.3607ms
+2024-06-15 22:11:09.325 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 22:11:09.753 +05:30  INF  Now listening on: https://localhost:7220
+2024-06-15 22:11:09.757 +05:30  INF  Now listening on: http://localhost:5016
+2024-06-15 22:11:09.765 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-06-15 22:11:09.769 +05:30  INF  Hosting environment: Development
+2024-06-15 22:11:09.771 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-06-15 22:11:21.992 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:11:22.434 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 449.5088ms
+2024-06-15 22:11:22.463 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:11:22.463 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:11:22.489 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 26.4008ms
+2024-06-15 22:11:22.587 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.9374ms
+2024-06-15 22:11:22.638 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:11:22.819 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 180.7877ms
+2024-06-15 22:17:18.295 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/login - application/json 76
+2024-06-15 22:17:18.370 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Login (API)'
+2024-06-15 22:17:18.406 +05:30  INF  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller API.Controllers.UserController (API).
+2024-06-15 22:17:21.888 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.User.LoginResponse'.
+2024-06-15 22:17:21.899 +05:30  INF  Executed action API.Controllers.UserController.Login (API) in 3484.6662ms
+2024-06-15 22:17:21.900 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Login (API)'
+2024-06-15 22:17:21.909 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/login - 200 null application/json; charset=utf-8 3613.9775ms
+2024-06-15 22:18:03.661 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - null null
+2024-06-15 22:18:04.740 +05:30  INF  Executing endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 22:18:04.746 +05:30  INF  Route matched with {action = "GetAllCartItems", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCartItems() on controller API.Controllers.CartController (API).
+2024-06-15 22:18:06.653 +05:30  INF  Executed DbCommand (73ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 22:18:06.683 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Cart.CartItemResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 22:18:06.692 +05:30  INF  Executed action API.Controllers.CartController.GetAllCartItems (API) in 1942.3195ms
+2024-06-15 22:18:06.694 +05:30  INF  Executed endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 22:18:06.699 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - 200 null application/json; charset=utf-8 3038.5755ms
+2024-06-15 22:18:24.184 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - application/json 37
+2024-06-15 22:18:24.197 +05:30  INF  Executing endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 22:18:24.203 +05:30  INF  Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 22:18:24.255 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 22:18:24.418 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 450), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserProducts] ([ProductId], [userId], [Quantity])
+VALUES (@p0, @p1, @p2);
+2024-06-15 22:18:24.436 +05:30  INF  Cart item successfully added
+2024-06-15 22:18:24.439 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 22:18:24.440 +05:30  INF  Executed action API.Controllers.CartController.AddToCart (API) in 230.7031ms
+2024-06-15 22:18:24.443 +05:30  INF  Executed endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 22:18:24.445 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - 200 null application/json; charset=utf-8 261.2218ms
+2024-06-15 22:18:30.289 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - application/json 37
+2024-06-15 22:18:30.298 +05:30  INF  Executing endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 22:18:30.300 +05:30  INF  Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 22:18:30.333 +05:30  INF  Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 22:18:30.369 +05:30  INF  Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p2='?' (Size = 450), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [UserProducts] SET [Quantity] = @p0
+OUTPUT 1
+WHERE [ProductId] = @p1 AND [userId] = @p2;
+2024-06-15 22:18:30.388 +05:30  INF  Cart item updated successfully: {"User":null,"userId":"666d44166e81753ef42cf7b0","Product":null,"ProductId":1,"Quantity":2,"$type":"UserProduct"}
+2024-06-15 22:18:30.397 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 22:18:30.399 +05:30  INF  Executed action API.Controllers.CartController.AddToCart (API) in 94.7463ms
+2024-06-15 22:18:30.402 +05:30  INF  Executed endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 22:18:30.403 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - 200 null application/json; charset=utf-8 115.0952ms
+2024-06-15 22:19:07.506 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:19:07.552 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 45.7889ms
+2024-06-15 22:19:07.574 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:19:07.574 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:19:07.578 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.0909ms
+2024-06-15 22:19:07.629 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.0931ms
+2024-06-15 22:19:07.781 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:19:07.828 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.6557ms
+2024-06-15 22:19:15.998 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:19:16.024 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 26.0643ms
+2024-06-15 22:19:16.064 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:19:16.065 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:19:16.072 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 8.0201ms
+2024-06-15 22:19:16.088 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.5691ms
+2024-06-15 22:19:16.139 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:19:16.173 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.3045ms
+2024-06-15 22:23:19.133 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:23:19.158 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 25.6377ms
+2024-06-15 22:23:19.194 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:23:19.194 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:23:19.205 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 11.0935ms
+2024-06-15 22:23:19.236 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.5402ms
+2024-06-15 22:23:19.307 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:23:19.338 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.1319ms
+2024-06-15 22:24:48.356 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:24:48.372 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.1798ms
+2024-06-15 22:24:48.413 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:24:48.418 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.2839ms
+2024-06-15 22:24:48.425 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:24:48.444 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.2915ms
+2024-06-15 22:24:48.517 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:24:48.548 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.2023ms
+2024-06-15 22:25:11.524 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:25:11.536 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 11.9376ms
+2024-06-15 22:25:11.567 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:25:11.567 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:25:11.572 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.9634ms
+2024-06-15 22:25:11.599 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.8194ms
+2024-06-15 22:25:11.640 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:25:11.657 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.4454ms
+2024-06-15 22:25:26.549 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:25:26.567 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 17.831ms
+2024-06-15 22:25:26.606 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:25:26.606 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:25:26.610 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.106ms
+2024-06-15 22:25:26.675 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.6005ms
+2024-06-15 22:25:26.708 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:25:26.727 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.9646ms
+2024-06-15 22:25:28.966 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:25:28.984 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 18.7773ms
+2024-06-15 22:25:29.021 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:25:29.021 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:25:29.030 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.6514ms
+2024-06-15 22:25:29.037 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.3427ms
+2024-06-15 22:25:29.092 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:25:29.110 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.6674ms
+2024-06-15 22:25:59.363 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:25:59.379 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 15.6662ms
+2024-06-15 22:25:59.423 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:25:59.424 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:25:59.429 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.7878ms
+2024-06-15 22:25:59.463 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.4034ms
+2024-06-15 22:25:59.525 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:25:59.541 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.352ms
+2024-06-15 22:26:52.670 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:26:52.687 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 17.4582ms
+2024-06-15 22:26:52.722 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:26:52.722 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:26:52.726 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 3.9324ms
+2024-06-15 22:26:52.757 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.5201ms
+2024-06-15 22:26:52.827 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:26:52.844 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.4921ms
+2024-06-15 22:27:17.655 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:27:17.673 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 18.0238ms
+2024-06-15 22:27:17.710 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:27:17.710 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:27:17.717 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 7.3269ms
+2024-06-15 22:27:17.742 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.1488ms
+2024-06-15 22:27:17.789 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:27:17.806 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8885ms
+2024-06-15 22:28:36.453 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - application/json 37
+2024-06-15 22:28:36.467 +05:30  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-06-15 22:28:36.474 +05:30  INF  AuthenticationScheme: Bearer was challenged.
+2024-06-15 22:28:36.476 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - 401 0 null 23.3314ms
+2024-06-15 22:29:03.389 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - application/json 37
+2024-06-15 22:29:03.402 +05:30  INF  Executing endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 22:29:03.408 +05:30  INF  Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 22:29:04.455 +05:30  INF  Executed DbCommand (13ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 22:29:04.466 +05:30  INF  Cart Items {"User":null,"userId":"666d44166e81753ef42cf7b0","Product":null,"ProductId":1,"Quantity":2,"$type":"UserProduct"}
+2024-06-15 22:29:04.482 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p1='?' (DbType = Int32), @p2='?' (Size = 450), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [UserProducts] SET [Quantity] = @p0
+OUTPUT 1
+WHERE [ProductId] = @p1 AND [userId] = @p2;
+2024-06-15 22:29:04.491 +05:30  INF  Cart item updated successfully: {"User":null,"userId":"666d44166e81753ef42cf7b0","Product":null,"ProductId":1,"Quantity":2,"$type":"UserProduct"}
+2024-06-15 22:29:04.498 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 22:29:04.499 +05:30  INF  Executed action API.Controllers.CartController.AddToCart (API) in 1088.2351ms
+2024-06-15 22:29:04.501 +05:30  INF  Executed endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 22:29:04.503 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - 200 null application/json; charset=utf-8 1114.9695ms
+2024-06-15 22:29:40.855 +05:30  INF  Request starting HTTP/2 PUT https://localhost:7220/api/Cart/modify-cart-item - application/json 38
+2024-06-15 22:29:40.864 +05:30  INF  Executing endpoint 'API.Controllers.CartController.ModifyCart (API)'
+2024-06-15 22:29:40.868 +05:30  INF  Route matched with {action = "ModifyCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ModifyCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 22:29:40.885 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 22:29:40.896 +05:30  INF  Cart Items {"User":null,"userId":"666d44166e81753ef42cf7b0","Product":null,"ProductId":1,"Quantity":2,"$type":"UserProduct"}
+2024-06-15 22:29:40.907 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@p1='?' (DbType = Int32), @p2='?' (Size = 450), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [UserProducts] SET [Quantity] = @p0
+OUTPUT 1
+WHERE [ProductId] = @p1 AND [userId] = @p2;
+2024-06-15 22:29:40.913 +05:30  INF  Cart Items updated Sucessfully
+2024-06-15 22:29:40.915 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 22:29:40.916 +05:30  INF  Executed action API.Controllers.CartController.ModifyCart (API) in 45.3878ms
+2024-06-15 22:29:40.918 +05:30  INF  Executed endpoint 'API.Controllers.CartController.ModifyCart (API)'
+2024-06-15 22:29:40.920 +05:30  INF  Request finished HTTP/2 PUT https://localhost:7220/api/Cart/modify-cart-item - 200 null application/json; charset=utf-8 64.9102ms
+2024-06-15 22:29:52.925 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - null null
+2024-06-15 22:29:52.937 +05:30  INF  Executing endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 22:29:52.942 +05:30  INF  Route matched with {action = "GetAllCartItems", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCartItems() on controller API.Controllers.CartController (API).
+2024-06-15 22:29:53.013 +05:30  INF  Executed DbCommand (60ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 22:29:53.037 +05:30  INF  Cart Items [{"ProductId":1,"Quantity":19,"Product":{"ProductId":1,"ImageUrl":"electronics-laptop.jpg","Description":"Powerful laptop with advanced features","Name":"Laptop","Price":999.99,"Quantity":100,"Discount":0,"ProductCategoryId":1,"$type":"ProductCartResponse"},"$type":"CartItemResponse"}]
+2024-06-15 22:29:53.052 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Cart.CartItemResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 22:29:53.058 +05:30  INF  Executed action API.Controllers.CartController.GetAllCartItems (API) in 113.5527ms
+2024-06-15 22:29:53.060 +05:30  INF  Executed endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 22:29:53.061 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - 200 null application/json; charset=utf-8 136.7536ms
+2024-06-15 22:30:20.310 +05:30  INF  Request starting HTTP/2 DELETE https://localhost:7220/api/Cart/delete-cart-item/1 - null null
+2024-06-15 22:30:20.324 +05:30  INF  Executing endpoint 'API.Controllers.CartController.DeleteCartItem (API)'
+2024-06-15 22:30:20.329 +05:30  INF  Route matched with {action = "DeleteCartItem", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCartItem(Int32) on controller API.Controllers.CartController (API).
+2024-06-15 22:30:20.379 +05:30  INF  Executed DbCommand (39ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 22:30:20.385 +05:30  INF  Cart Items {"User":null,"userId":"666d44166e81753ef42cf7b0","Product":null,"ProductId":1,"Quantity":19,"$type":"UserProduct"}
+2024-06-15 22:30:20.411 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [UserProducts]
+OUTPUT 1
+WHERE [ProductId] = @p0 AND [userId] = @p1;
+2024-06-15 22:30:20.421 +05:30  INF  Cart Item remove successfully
+2024-06-15 22:30:20.423 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 22:30:20.425 +05:30  INF  Executed action API.Controllers.CartController.DeleteCartItem (API) in 93.6099ms
+2024-06-15 22:30:20.426 +05:30  INF  Executed endpoint 'API.Controllers.CartController.DeleteCartItem (API)'
+2024-06-15 22:30:20.428 +05:30  INF  Request finished HTTP/2 DELETE https://localhost:7220/api/Cart/delete-cart-item/1 - 200 null application/json; charset=utf-8 117.9942ms
+2024-06-15 22:30:38.514 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 22:30:38.534 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 19.7237ms
+2024-06-15 22:30:38.592 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 22:30:38.592 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 22:30:38.596 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.0409ms
+2024-06-15 22:30:38.635 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.6284ms
+2024-06-15 22:30:38.767 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 22:30:38.797 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.9134ms
