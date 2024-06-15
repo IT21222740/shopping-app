@@ -13,7 +13,7 @@ namespace Application.Services.Interfaces
     {
         public Task<ServiceResponse> AddCartItem(CartItemRequset item);
         public Task<ServiceResponse> ModifyCartItem(CartItemRequset item);
-        public Task<ServiceResponse> RemoveCartItem(CartItemRequset item);
+        public Task<ServiceResponse> RemoveCartItem(int productId);
         public Task<UserProduct?> GetCartItem(int itemId);
 
         public Task<ServiceResponse> ViewCart();

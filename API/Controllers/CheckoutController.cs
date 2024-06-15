@@ -7,20 +7,31 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Stripe;
 using System.Diagnostics;
+using System.Net.Mime;
 
 namespace API.Controllers
 {
-    public class CheckoutController : Controller
+    [Route("api/[Controller]")]
+    [Produces(MediaTypeNames.Application.Json)]
+    [Consumes(MediaTypeNames.Application.Json)]
+    [ApiController]
+    public class PaymentController : Controller
     {
         private readonly ICheckoutService _checkoutService;
 
-        public CheckoutController(ICheckoutService checkoutService)
+        public PaymentController(ICheckoutService checkoutService)
         {
             _checkoutService = checkoutService;
         }
-
+        /// <summary>
+        /// user can perform payment
+        /// </summary>
+        /// <returns></returns>
         [Authorize]
-        [HttpPost("Checkout")]
+        [HttpPost("")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> Checkout()
         {
             var response = await _checkoutService.checkout();
@@ -36,7 +47,14 @@ namespace API.Controllers
             return Ok(response);
 
         }
+        /// <summary>
+        /// This is a webhook used by stripe service
+        /// </summary>
+        /// <returns></returns>
         [HttpPost("webHook")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> Index()
         {
             ServiceResponse response = await _checkoutService.HandlePayment();
@@ -51,8 +69,15 @@ namespace API.Controllers
             }
             
         }
+        /// <summary>
+        /// Retrieving user payments
+        /// </summary>
+        /// <returns></returns>
         [Authorize]
         [HttpGet("Get-user-payments")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> UserPayments()
         {
             ServiceResponse response = await _checkoutService.GetAllUserPayments();
@@ -65,9 +90,16 @@ namespace API.Controllers
                 return BadRequest();
             }
         }
-
+        /// <summary>
+        /// Get User payement for a specific order
+        /// </summary>
+        /// <param name="orderId"></param>
+        /// <returns></returns>
         [Authorize]
-        [HttpGet("Get-User-payments-byId")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [HttpGet("Get-User-payments-byId/{orderId:int}")]
         public async Task<IActionResult> GetPaymentInfo(int orderId)
         {
             ServiceResponse response = await _checkoutService.GetPaymentInfoById(orderId);

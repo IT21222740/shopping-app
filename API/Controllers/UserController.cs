@@ -1,31 +1,38 @@
 ﻿using Application.DTOs;
-using Auth0.AuthenticationApi;
-using Auth0.AuthenticationApi.Models;
 using Auth0.Core.Exceptions;
 using Microsoft.AspNetCore.Mvc;
-using System.IdentityModel.Tokens.Jwt;
 using Application.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using System.Net.Mime;
 
 namespace API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Produces(MediaTypeNames.Application.Json)]
+    [Consumes(MediaTypeNames.Application.Json)]
     public class UserController : Controller
     {
         private readonly IUserService _userService;
+
         public UserController(IUserService userService)
         {
             _userService = userService;
         }
 
-
-        [HttpPost]
+        /// <summary>
+        /// Registers a new user using Auth0.
+        /// </summary>
+        /// <param name="newUser">The registration details encapsulated in a RegisterDTO object.</param>
+        [HttpPost("register")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Signup([FromBody] SignUpDTO newUser)
         {
             try
             {
                 var result = await _userService.SignUpAsync(newUser);
+
                 return Ok(result);
 
 
@@ -52,70 +59,41 @@ namespace API.Controllers
                 return StatusCode(500, "An error occurred: " + ex.Message);
             }
         }
-
+        /// <summary>
+        /// User Login Using Auth0.
+        /// </summary>
+        /// <param name="model">The login details encapsulated in a LoginDTO object.</param>
+        /// <returns>An IActionResult indicating the success or failure of the login attempt.</returns>
         [HttpPost("login")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
         {
-            try
+             
+            var response = await _userService.LoginAsync(model);
+            if(response == null)
             {
-
-
-
-                var auth0Domain = "dev-uh6xfalax4p08hsp.us.auth0.com";
-                var auth0ClientId = "M4T99kSN2zG7aRvvnpBRvCMtZP4NSEHc";
-                var auth0ClientSecret = "sT_i43dhesgULJ6lPxoERtmp9k5L_X_Yenh1OBHZQhOiwWH6HgMN2qPRNxrF2a0f";
-                var audience = "https://people-service.com";
-
-                var client = new AuthenticationApiClient(new Uri($"https://{auth0Domain}/"));
-
-                var request = new ResourceOwnerTokenRequest
-                {
-                    ClientId = auth0ClientId,
-                    ClientSecret = auth0ClientSecret,
-                    Audience = audience,
-                    Username = model.Email,
-                    Password = model.Password,
-                    Scope = "openid"
-                };
-
-                Console.WriteLine(request);
-
-                var tokenResponse = await client.GetTokenAsync(request);
-                Console.WriteLine(tokenResponse.AccessToken.ToString());
-                Console.WriteLine(tokenResponse.IdToken.ToString());
-                // If login successful, create JWT token
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var jwtToken = tokenHandler.ReadJwtToken(tokenResponse.AccessToken);
-
-
-                
-
-                return Ok(new
-                {
-                    
-                    AccessToken = tokenResponse.AccessToken,
-                    IdToken = tokenResponse.IdToken,
-                    Message = "User logged in successfully."
-                });
-
-
+                return BadRequest("User Login Failed");
             }
-            catch (Exception ex)
+            else
             {
-                // Log the exception
-
-                return BadRequest("Invalid login attempt." + ex.Message);
+                return Ok(response);
             }
-
-            
-
-
 
         }
-
+       
     
+
+        /// <summary>
+        /// Adds a new address for the user.
+        /// </summary>
+        /// <param name="model">The address details encapsulated in an AddressDTO object.</param>
+        /// <returns>An IActionResult indicating the success or failure of the address addition.</returns>
         [HttpPost("addAddress")]
         [Authorize]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> Address([FromBody] AddressDTO model)
         {
             var result = await _userService.AddAddress(model);
@@ -124,7 +102,7 @@ namespace API.Controllers
                 return Ok(result);
             }
             else
-            {
+            {   
                 return BadRequest(result.Message);
             }
         }

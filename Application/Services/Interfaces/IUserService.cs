@@ -1,4 +1,5 @@
 ﻿using Application.DTOs;
+using Application.DTOs.User;
 using Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Application.Services.Interfaces
     {
         public Task<ServiceResponse> SignUpAsync(SignUpDTO newUser);
 
-        public Task<ServiceResponse> updateProfile();
+        public Task<LoginResponse> LoginAsync(LoginDTO user);
         public Task<ServiceResponse> AddAddress(AddressDTO addressDto);
 
     }

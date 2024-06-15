@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2dgFlVPjMh2jMPtIGVKczeNCAhMvCPgbTcEy7qItpjLr88pPmycauX8MQNRzotgvdDxbwdC/WTPAld1VhH32YQ==",
+  "dgSpecHash": "AFHLGR4gqyrZp1cjvXYnFC/y4fJ7Jw5V+StdvRVqC6x/KfaD8rts1yOj/ju9QzwhGVyYJhiFwFDAFO+y+5jB0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\iTela\\Documents\\Assignment\\sample project structure\\ShoppingApp\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,7 @@
     "C:\\Users\\iTela\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\iTela\\.nuget\\packages\\sonaranalyzer.csharp\\9.25.1.91650\\sonaranalyzer.csharp.9.25.1.91650.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\stripe.net\\44.5.0\\stripe.net.44.5.0.nupkg.sha512",
     "C:\\Users\\iTela\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

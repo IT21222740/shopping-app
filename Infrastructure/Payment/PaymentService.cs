@@ -9,7 +9,7 @@ using Stripe;
 using Stripe.Checkout;
 using Stripe.Climate;
 
-public class PaymentService : IPamentService // Corrected the interface name
+public class PaymentService : IPamentService 
 {
     private readonly IHttpContextAccessor _contextAccessor;
     public PaymentService(IHttpContextAccessor httpContextAccessor)

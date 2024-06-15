@@ -1,0 +1,14 @@
+2024-06-11 09:44:20.927 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-11 09:44:21.987 +05:30  INF  Now listening on: https://localhost:7220
+2024-06-11 09:44:21.992 +05:30  INF  Now listening on: http://localhost:5016
+2024-06-11 09:44:22.003 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-06-11 09:44:22.008 +05:30  INF  Hosting environment: Development
+2024-06-11 09:44:22.012 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-06-11 09:44:25.732 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-11 09:44:26.292 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 569.3562ms
+2024-06-11 09:44:26.307 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-11 09:44:26.308 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-11 09:44:26.352 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 44.6564ms
+2024-06-11 09:44:26.507 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 206.9032ms
+2024-06-11 09:44:26.678 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-11 09:44:26.932 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 253.729ms

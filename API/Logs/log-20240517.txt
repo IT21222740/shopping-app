@@ -1,0 +1,967 @@
+2024-05-17 09:59:31.976 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 09:59:32.401 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 09:59:32.404 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 09:59:32.412 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 09:59:32.416 +05:30  INF  Hosting environment: Development
+2024-05-17 09:59:32.420 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 09:59:36.874 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 09:59:37.846 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 991.2867ms
+2024-05-17 09:59:37.882 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 09:59:37.890 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 09:59:37.952 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 68.0054ms
+2024-05-17 09:59:38.189 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 300.3276ms
+2024-05-17 09:59:38.260 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 09:59:38.545 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 285.2565ms
+2024-05-17 10:06:26.887 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 10:06:27.186 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 10:06:27.190 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 10:06:27.201 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 10:06:27.205 +05:30  INF  Hosting environment: Development
+2024-05-17 10:06:27.209 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 10:06:27.694 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:06:28.004 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 316.5867ms
+2024-05-17 10:06:28.025 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:06:28.025 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:06:28.036 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 11.5752ms
+2024-05-17 10:06:28.087 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.1677ms
+2024-05-17 10:06:28.270 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:06:28.431 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.0446ms
+2024-05-17 10:11:01.566 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:11:01.621 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 55.8024ms
+2024-05-17 10:11:01.674 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:11:01.674 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:11:01.692 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 18.6588ms
+2024-05-17 10:11:01.743 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.5033ms
+2024-05-17 10:11:01.829 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:11:01.853 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.0779ms
+2024-05-17 10:11:47.150 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:11:47.166 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.4541ms
+2024-05-17 10:11:47.212 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:11:47.217 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.0551ms
+2024-05-17 10:11:47.221 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:11:47.244 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.4628ms
+2024-05-17 10:11:47.393 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:11:47.413 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.6837ms
+2024-05-17 10:15:56.184 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 10:15:56.453 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 10:15:56.458 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 10:15:56.464 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 10:15:56.468 +05:30  INF  Hosting environment: Development
+2024-05-17 10:15:56.470 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 10:15:56.941 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:15:57.187 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 250.4364ms
+2024-05-17 10:15:57.204 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:15:57.204 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:15:57.212 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 8.4691ms
+2024-05-17 10:15:57.259 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.1164ms
+2024-05-17 10:15:57.295 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:15:57.432 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.0104ms
+2024-05-17 10:22:58.841 +05:30  INF  Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-17 10:22:58.893 +05:30  INF  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-17 10:22:58.895 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-05-17 10:22:58.896 +05:30  INF  Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-05-17 10:22:58.914 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-05-17 10:22:58.930 +05:30  INF  Applying migration '20240517045246_add a coloumn to address(isPrimary)'.
+2024-05-17 10:22:58.993 +05:30  INF  Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Addresses] ADD [IsPrimary] bit NOT NULL DEFAULT CAST(0 AS bit);
+2024-05-17 10:22:58.995 +05:30  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240517045246_add a coloumn to address(isPrimary)', N'8.0.4');
+2024-05-17 10:23:06.963 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 10:23:07.230 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 10:23:07.234 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 10:23:07.241 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 10:23:07.245 +05:30  INF  Hosting environment: Development
+2024-05-17 10:23:07.247 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 10:23:11.068 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:23:11.337 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 274.9647ms
+2024-05-17 10:23:11.356 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:23:11.356 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:23:11.366 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 10.4562ms
+2024-05-17 10:23:11.419 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.7547ms
+2024-05-17 10:23:11.462 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:23:11.614 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 152.6852ms
+2024-05-17 10:25:02.287 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 196
+2024-05-17 10:25:02.476 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:25:02.520 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 10:25:04.910 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-05-17 10:25:04.919 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 2389.904ms
+2024-05-17 10:25:04.922 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:25:04.927 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 400 null text/plain; charset=utf-8 2640.5081ms
+2024-05-17 10:28:13.141 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 196
+2024-05-17 10:28:13.160 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:28:13.164 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 10:28:17.425 +05:30  INF  Executed DbCommand (87ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 10:28:17.578 +05:30  INF  Executed DbCommand (33ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 10:28:17.649 +05:30  ERR  An exception occurred in the database while saving changes for context type 'Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UserId', table 'Shop.dbo.Addresses'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:669d44f9-0655-4bf6-a2c6-f29a51cb3ba5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'UserId', table 'Shop.dbo.Addresses'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:669d44f9-0655-4bf6-a2c6-f29a51cb3ba5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2024-05-17 10:28:18.771 +05:30  INF  Executing ObjectResult, writing value of type 'System.String'.
+2024-05-17 10:28:18.774 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 5601.2203ms
+2024-05-17 10:28:18.776 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:28:18.784 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 500 null text/plain; charset=utf-8 5644.3077ms
+2024-05-17 10:29:37.784 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 196
+2024-05-17 10:29:37.797 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:29:37.799 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 10:29:43.882 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 10:56:12.136 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 10:56:12.467 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 10:56:12.472 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 10:56:12.482 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 10:56:12.488 +05:30  INF  Hosting environment: Development
+2024-05-17 10:56:12.492 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 10:56:16.714 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:56:17.104 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 393.5848ms
+2024-05-17 10:56:17.127 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:56:17.127 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:56:17.156 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 29.5448ms
+2024-05-17 10:56:17.232 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.1781ms
+2024-05-17 10:56:17.272 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:56:17.466 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 194.5693ms
+2024-05-17 10:56:25.943 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:56:25.964 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 22.1515ms
+2024-05-17 10:56:25.991 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:56:25.991 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:56:26.003 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 11.349ms
+2024-05-17 10:56:26.021 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.968ms
+2024-05-17 10:56:26.060 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:56:26.081 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.3046ms
+2024-05-17 10:58:18.112 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 10:58:18.140 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 28.5757ms
+2024-05-17 10:58:18.190 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 10:58:18.190 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 10:58:18.206 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 16.4321ms
+2024-05-17 10:58:18.226 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.875ms
+2024-05-17 10:58:18.369 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 10:58:18.391 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.214ms
+2024-05-17 10:58:32.382 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 174
+2024-05-17 10:58:32.416 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:58:32.441 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 10:58:33.164 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-17 10:58:33.188 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 737.0518ms
+2024-05-17 10:58:33.189 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:58:33.196 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 400 null application/problem+json; charset=utf-8 813.9048ms
+2024-05-17 10:59:49.951 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 10:59:49.962 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:59:49.964 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 10:59:50.446 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 477.495ms
+2024-05-17 10:59:50.449 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 10:59:50.484 +05:30  ERR  An unhandled exception has occurred while executing the request.System.MissingMethodException: Attempted to access a missing method.
+   at Application.DTOs.AddressDTO.get_IsPrimary()
+   at Microsoft.Extensions.Internal.PropertyHelper.CallNullSafePropertyGetter[TDeclaringType,TValue](Func`2 getter, Object target)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationEntry.get_Model()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-17 10:59:50.550 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 500 null text/plain; charset=utf-8 598.7796ms
+2024-05-17 11:00:32.490 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 11:00:32.505 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:00:32.507 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:00:32.530 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 19.5588ms
+2024-05-17 11:00:32.532 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:00:32.542 +05:30  ERR  An unhandled exception has occurred while executing the request.System.MissingMethodException: Attempted to access a missing method.
+   at Application.DTOs.AddressDTO.get_IsPrimary()
+   at Microsoft.Extensions.Internal.PropertyHelper.CallNullSafePropertyGetter[TDeclaringType,TValue](Func`2 getter, Object target)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationEntry.get_Model()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-17 11:00:32.592 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 500 null text/plain; charset=utf-8 103.4419ms
+2024-05-17 11:00:37.753 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:00:37.774 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 22.0299ms
+2024-05-17 11:00:37.809 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:00:37.810 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:00:37.823 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 14.9113ms
+2024-05-17 11:00:37.843 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.1824ms
+2024-05-17 11:00:37.976 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:00:37.995 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.3184ms
+2024-05-17 11:00:50.142 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 11:00:50.146 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:00:50.149 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:00:50.163 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 2.3209ms
+2024-05-17 11:00:50.165 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:00:50.173 +05:30  ERR  An unhandled exception has occurred while executing the request.System.MissingMethodException: Attempted to access a missing method.
+   at Application.DTOs.AddressDTO.get_IsPrimary()
+   at Microsoft.Extensions.Internal.PropertyHelper.CallNullSafePropertyGetter[TDeclaringType,TValue](Func`2 getter, Object target)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationEntry.get_Model()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-17 11:00:50.215 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 500 null text/plain; charset=utf-8 73.3427ms
+2024-05-17 11:01:19.929 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 11:01:20.220 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 11:01:20.223 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 11:01:20.230 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 11:01:20.236 +05:30  INF  Hosting environment: Development
+2024-05-17 11:01:20.239 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 11:01:24.152 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:01:24.406 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 259.4025ms
+2024-05-17 11:01:24.418 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:01:24.418 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:01:24.434 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 16.1507ms
+2024-05-17 11:01:24.479 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.2877ms
+2024-05-17 11:01:24.515 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:01:24.674 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.0476ms
+2024-05-17 11:01:39.195 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 11:01:39.276 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:01:39.303 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:01:41.692 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-05-17 11:01:41.700 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 2386.6769ms
+2024-05-17 11:01:41.702 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:01:41.711 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 400 null text/plain; charset=utf-8 2517.0621ms
+2024-05-17 11:02:26.930 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 11:02:26.944 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:02:26.946 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:02:37.097 +05:30  INF  Executed DbCommand (49ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 11:02:37.183 +05:30  INF  Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 11:02:41.531 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:02:41.550 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 14599.564ms
+2024-05-17 11:02:41.552 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:02:41.559 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 200 null application/json; charset=utf-8 14629.7981ms
+2024-05-17 11:05:51.504 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 11:05:51.516 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:05:51.518 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:05:58.355 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 11:05:58.369 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 11:06:13.580 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:06:13.588 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 22066.2948ms
+2024-05-17 11:06:13.590 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:06:13.592 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 200 null application/json; charset=utf-8 22088.0581ms
+2024-05-17 11:10:01.082 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:10:01.124 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 42.5456ms
+2024-05-17 11:10:01.155 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:10:01.155 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:10:01.171 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 16.0238ms
+2024-05-17 11:10:01.188 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4321ms
+2024-05-17 11:10:01.310 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:10:01.333 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.1796ms
+2024-05-17 11:10:30.865 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:10:30.886 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 21.2769ms
+2024-05-17 11:10:30.923 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:10:30.927 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.4489ms
+2024-05-17 11:10:30.931 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:10:30.969 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.9349ms
+2024-05-17 11:10:31.025 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:10:31.047 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.1618ms
+2024-05-17 11:13:39.303 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 11:13:39.648 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 11:13:39.652 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 11:13:39.661 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 11:13:39.666 +05:30  INF  Hosting environment: Development
+2024-05-17 11:13:39.669 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 11:13:39.929 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:13:40.211 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 286.4763ms
+2024-05-17 11:13:40.230 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:13:40.230 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:13:40.244 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 14.1253ms
+2024-05-17 11:13:40.287 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.6974ms
+2024-05-17 11:13:40.336 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:13:40.501 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.9788ms
+2024-05-17 11:14:14.522 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 173
+2024-05-17 11:14:14.608 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:14:14.634 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:14:15.584 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-17 11:14:15.614 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 964.6649ms
+2024-05-17 11:14:15.617 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:14:15.626 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 400 null application/problem+json; charset=utf-8 1103.1371ms
+2024-05-17 11:15:29.063 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 232
+2024-05-17 11:15:29.075 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:15:29.077 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:15:32.659 +05:30  INF  Executed DbCommand (52ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 11:15:32.776 +05:30  INF  Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 11:15:32.808 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:15:32.815 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 3735.1294ms
+2024-05-17 11:15:32.817 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:15:32.824 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 200 null application/json; charset=utf-8 3761.1738ms
+2024-05-17 11:39:30.372 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 11:39:30.782 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 11:39:30.785 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 11:39:30.792 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 11:39:30.795 +05:30  INF  Hosting environment: Development
+2024-05-17 11:39:30.798 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 11:39:34.036 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:39:35.264 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 1241.8138ms
+2024-05-17 11:39:35.273 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:39:35.274 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:39:35.292 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 19.5281ms
+2024-05-17 11:39:35.405 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.6135ms
+2024-05-17 11:39:35.460 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:39:35.702 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 241.9014ms
+2024-05-17 11:41:13.283 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 228
+2024-05-17 11:41:13.405 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:41:13.443 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:41:25.429 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-05-17 11:41:25.436 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 11983.803ms
+2024-05-17 11:41:25.440 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:41:25.450 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 400 null text/plain; charset=utf-8 12167.6799ms
+2024-05-17 11:41:32.451 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 238
+2024-05-17 11:41:32.458 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:41:32.460 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:41:43.713 +05:30  INF  Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 11:41:43.839 +05:30  INF  Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 11:41:43.871 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:41:43.880 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 11416.4401ms
+2024-05-17 11:41:43.883 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:41:43.889 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 200 null application/json; charset=utf-8 11439.3387ms
+2024-05-17 11:41:58.484 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User - application/json 245
+2024-05-17 11:41:58.489 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:41:58.491 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:42:11.073 +05:30  INF  Executed DbCommand (50ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-17 11:42:11.085 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 11:42:11.089 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:42:11.091 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 12597.0867ms
+2024-05-17 11:42:11.093 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-17 11:42:11.095 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User - 200 null application/json; charset=utf-8 12612.1014ms
+2024-05-17 11:42:50.117 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/login - application/json 69
+2024-05-17 11:42:50.129 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Login (API)'
+2024-05-17 11:42:50.135 +05:30  INF  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller API.Controllers.UserController (API).
+2024-05-17 11:42:55.217 +05:30  INF  Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-17 11:42:55.223 +05:30  INF  Executed action API.Controllers.UserController.Login (API) in 5085.303ms
+2024-05-17 11:42:55.225 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Login (API)'
+2024-05-17 11:42:55.227 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/login - 200 null application/json; charset=utf-8 5110.3808ms
+2024-05-17 11:43:43.697 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Product/all-products - null null
+2024-05-17 11:43:44.524 +05:30  INF  Executing endpoint 'API.Controllers.ProductController.GetProducts (API)'
+2024-05-17 11:43:44.532 +05:30  INF  Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.Product.ProductResponse]] GetProducts() on controller API.Controllers.ProductController (API).
+2024-05-17 11:43:45.038 +05:30  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity], [p0].[CategoryId], [p0].[CategoryIcon], [p0].[CategoryName]
+FROM [Products] AS [p]
+INNER JOIN [ProductCategories] AS [p0] ON [p].[ProductCategoryId] = [p0].[CategoryId]
+2024-05-17 11:43:45.057 +05:30  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Product.ProductResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-17 11:43:45.072 +05:30  INF  Executed action API.Controllers.ProductController.GetProducts (API) in 535.9625ms
+2024-05-17 11:43:45.075 +05:30  INF  Executed endpoint 'API.Controllers.ProductController.GetProducts (API)'
+2024-05-17 11:43:45.077 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Product/all-products - 200 null application/json; charset=utf-8 1381.5041ms
+2024-05-17 11:45:47.643 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - application/json 37
+2024-05-17 11:45:47.662 +05:30  INF  Executing endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-05-17 11:45:47.666 +05:30  INF  Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-05-17 11:45:47.788 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-05-17 11:45:47.821 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 450), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserProducts] ([ProductId], [userId], [Quantity])
+VALUES (@p0, @p1, @p2);
+2024-05-17 11:45:47.831 +05:30  INF  Cart Items sucessfully added
+2024-05-17 11:45:47.833 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-17 11:45:47.836 +05:30  INF  Executed action API.Controllers.CartController.AddToCart (API) in 167.9042ms
+2024-05-17 11:45:47.838 +05:30  INF  Executed endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-05-17 11:45:47.839 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - 200 null application/json; charset=utf-8 197.5925ms
+2024-05-17 11:45:59.892 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/Checkout - null 0
+2024-05-17 11:45:59.900 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Checkout (API)'
+2024-05-17 11:45:59.905 +05:30  INF  Route matched with {action = "Checkout", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Checkout() on controller API.Controllers.CheckoutController (API).
+2024-05-17 11:45:59.925 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PhoneNumber], [u].[StripeId]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2024-05-17 11:45:59.944 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-05-17 11:45:59.958 +05:30  INF  Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0
+2024-05-17 11:45:59.971 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__item_ProductId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ProductId] = @__item_ProductId_0
+2024-05-17 11:46:00.012 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [PaymentId], [Status], [TotalAmount], [UserId])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-05-17 11:46:00.040 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderProducts] ([OrderId], [ProductId], [OrderQty], [UnitPrice])
+VALUES (@p0, @p1, @p2, @p3);
+2024-05-17 11:46:01.039 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-17 11:46:01.043 +05:30  INF  Executed action API.Controllers.CheckoutController.Checkout (API) in 1135.1488ms
+2024-05-17 11:46:01.045 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Checkout (API)'
+2024-05-17 11:46:01.047 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/Checkout - 200 null text/plain; charset=utf-8 1155.3084ms
+2024-05-17 11:46:27.516 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/webHook - application/json; charset=utf-8 3503
+2024-05-17 11:46:27.520 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:27.525 +05:30  INF  Route matched with {action = "Index", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.CheckoutController (API).
+2024-05-17 11:46:27.674 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/webHook - application/json; charset=utf-8 1918
+2024-05-17 11:46:27.679 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:27.681 +05:30  INF  Route matched with {action = "Index", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.CheckoutController (API).
+2024-05-17 11:46:27.728 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:46:27.734 +05:30  INF  Executed action API.Controllers.CheckoutController.Index (API) in 203.4657ms
+2024-05-17 11:46:27.736 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:27.738 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/webHook - 200 null application/json; charset=utf-8 222.2034ms
+2024-05-17 11:46:27.738 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:46:27.747 +05:30  INF  Executed action API.Controllers.CheckoutController.Index (API) in 62.929ms
+2024-05-17 11:46:27.749 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:27.750 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/webHook - 200 null application/json; charset=utf-8 76.0999ms
+2024-05-17 11:46:27.834 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/webHook - application/json; charset=utf-8 3248
+2024-05-17 11:46:27.841 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:27.846 +05:30  INF  Route matched with {action = "Index", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.CheckoutController (API).
+2024-05-17 11:46:27.894 +05:30  INF  Executed DbCommand (5ms) [Parameters=[@__paymentResponse_OrderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__paymentResponse_OrderId_0
+2024-05-17 11:46:27.913 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [OrderDate] = @p0, [PaymentId] = @p1, [Status] = @p2, [TotalAmount] = @p3, [UserId] = @p4
+OUTPUT 1
+WHERE [OrderId] = @p5;
+2024-05-17 11:46:27.930 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__id_0
+2024-05-17 11:46:27.943 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__cartItem_ProductId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ProductId] = @__cartItem_ProductId_0
+2024-05-17 11:46:27.973 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Double), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Discount] = @p1, [ImageUrl] = @p2, [Name] = @p3, [Price] = @p4, [ProductCategoryId] = @p5, [Quantity] = @p6
+OUTPUT 1
+WHERE [ProductId] = @p7;
+2024-05-17 11:46:27.986 +05:30  INF  Executed DbCommand (1ms) [Parameters=[@__UserId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__UserId_0
+2024-05-17 11:46:28.005 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [UserProducts]
+OUTPUT 1
+WHERE [ProductId] = @p0 AND [userId] = @p1;
+2024-05-17 11:46:28.081 +05:30  INF  Executed DbCommand (8ms) [Parameters=[@__orderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[OrderId], [t].[OrderDate], [t].[PaymentId], [t].[Status], [t].[TotalAmount], [t].[UserId], [t].[UserId0], [t].[Email], [t].[FirstName], [t].[LastName], [t].[PhoneNumber], [t].[StripeId], [t0].[OrderId], [t0].[ProductId], [t0].[OrderQty], [t0].[UnitPrice], [t0].[ProductId0], [t0].[Description], [t0].[Discount], [t0].[ImageUrl], [t0].[Name], [t0].[Price], [t0].[ProductCategoryId], [t0].[Quantity]
+FROM (
+    SELECT TOP(1) [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId], [u].[UserId] AS [UserId0], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PhoneNumber], [u].[StripeId]
+    FROM [Orders] AS [o]
+    INNER JOIN [Users] AS [u] ON [o].[UserId] = [u].[UserId]
+    WHERE [o].[OrderId] = @__orderId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [o0].[OrderId], [o0].[ProductId], [o0].[OrderQty], [o0].[UnitPrice], [p].[ProductId] AS [ProductId0], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+    FROM [OrderProducts] AS [o0]
+    INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[ProductId]
+) AS [t0] ON [t].[OrderId] = [t0].[OrderId]
+ORDER BY [t].[OrderId], [t].[UserId0], [t0].[OrderId], [t0].[ProductId]
+2024-05-17 11:46:28.594 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/webHook - application/json; charset=utf-8 1960
+2024-05-17 11:46:28.598 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:28.600 +05:30  INF  Route matched with {action = "Index", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.CheckoutController (API).
+2024-05-17 11:46:28.605 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:46:28.607 +05:30  INF  Executed action API.Controllers.CheckoutController.Index (API) in 3.0752ms
+2024-05-17 11:46:28.610 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:28.612 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/webHook - 200 null application/json; charset=utf-8 18.212ms
+2024-05-17 11:46:29.607 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:46:29.616 +05:30  INF  Executed action API.Controllers.CheckoutController.Index (API) in 1760.0836ms
+2024-05-17 11:46:29.623 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:29.632 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/webHook - 200 null application/json; charset=utf-8 1798.1689ms
+2024-05-17 11:46:30.055 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/webHook - application/json; charset=utf-8 3728
+2024-05-17 11:46:30.065 +05:30  INF  Executing endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:30.067 +05:30  INF  Route matched with {action = "Index", controller = "Checkout"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.CheckoutController (API).
+2024-05-17 11:46:30.076 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-05-17 11:46:30.078 +05:30  INF  Executed action API.Controllers.CheckoutController.Index (API) in 7.8158ms
+2024-05-17 11:46:30.080 +05:30  INF  Executed endpoint 'API.Controllers.CheckoutController.Index (API)'
+2024-05-17 11:46:30.083 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/webHook - 200 null application/json; charset=utf-8 27.8591ms
+2024-05-17 11:48:27.327 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 11:48:27.654 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 11:48:27.658 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 11:48:27.665 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 11:48:27.669 +05:30  INF  Hosting environment: Development
+2024-05-17 11:48:27.672 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 11:48:28.143 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:48:28.427 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 291.1655ms
+2024-05-17 11:48:28.446 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:48:28.446 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:48:28.470 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 23.0196ms
+2024-05-17 11:48:28.522 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.4365ms
+2024-05-17 11:48:28.561 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:48:28.721 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.7277ms
+2024-05-17 11:58:22.627 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 11:58:22.889 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 11:58:22.893 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 11:58:22.900 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 11:58:22.904 +05:30  INF  Hosting environment: Development
+2024-05-17 11:58:22.907 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 11:58:23.489 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:58:23.811 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 335.4016ms
+2024-05-17 11:58:23.830 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:58:23.830 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:58:23.848 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 18.7782ms
+2024-05-17 11:58:23.890 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4621ms
+2024-05-17 11:58:23.924 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:58:24.081 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 156.7778ms
+2024-05-17 11:59:19.400 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:59:19.432 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 33.0168ms
+2024-05-17 11:59:19.458 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:59:19.458 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:59:19.477 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 19.3262ms
+2024-05-17 11:59:19.493 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1436ms
+2024-05-17 11:59:19.533 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:59:19.560 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.9462ms
+2024-05-17 11:59:31.311 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 11:59:31.322 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 12.2932ms
+2024-05-17 11:59:31.347 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 11:59:31.347 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 11:59:31.351 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.7972ms
+2024-05-17 11:59:31.364 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.6867ms
+2024-05-17 11:59:31.406 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 11:59:31.426 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.5278ms
+2024-05-17 12:00:04.371 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 12:00:04.650 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 12:00:04.655 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 12:00:04.661 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 12:00:04.665 +05:30  INF  Hosting environment: Development
+2024-05-17 12:00:04.668 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 12:00:08.648 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:00:08.936 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 296.6877ms
+2024-05-17 12:00:08.953 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:00:08.953 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:00:08.960 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 7.1907ms
+2024-05-17 12:00:08.998 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.1058ms
+2024-05-17 12:00:09.034 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:00:09.167 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.3483ms
+2024-05-17 12:01:52.812 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:01:52.846 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 34.4635ms
+2024-05-17 12:01:52.881 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:01:52.881 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:01:52.891 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 10.4363ms
+2024-05-17 12:01:52.910 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3818ms
+2024-05-17 12:01:52.965 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:01:52.992 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.0531ms
+2024-05-17 12:02:02.350 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:02:02.366 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.1561ms
+2024-05-17 12:02:02.407 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:02:02.413 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 6.1906ms
+2024-05-17 12:02:02.418 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:02:02.435 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.3236ms
+2024-05-17 12:02:02.491 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:02:02.512 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.1671ms
+2024-05-17 12:02:06.422 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:02:06.435 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 13.9892ms
+2024-05-17 12:02:06.480 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:02:06.481 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:02:06.488 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 8.683ms
+2024-05-17 12:02:06.508 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.7172ms
+2024-05-17 12:02:06.546 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:02:06.566 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.1049ms
+2024-05-17 12:02:19.109 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:02:19.125 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.5199ms
+2024-05-17 12:02:19.160 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:02:19.160 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:02:19.166 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 6.9462ms
+2024-05-17 12:02:19.187 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.712ms
+2024-05-17 12:02:19.233 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:02:19.250 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.6654ms
+2024-05-17 12:02:37.435 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:02:37.449 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 13.5356ms
+2024-05-17 12:02:37.485 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:02:37.485 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:02:37.490 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 6.1052ms
+2024-05-17 12:02:37.507 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.5588ms
+2024-05-17 12:02:37.556 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:02:37.572 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.7051ms
+2024-05-17 12:03:00.553 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 12:03:00.566 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 13.6925ms
+2024-05-17 12:03:00.605 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 12:03:00.606 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 12:03:00.612 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 7.0721ms
+2024-05-17 12:03:00.637 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.5378ms
+2024-05-17 12:03:00.681 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 12:03:00.699 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.1018ms
+2024-05-17 13:12:41.551 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 13:12:42.056 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 13:12:42.060 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 13:12:42.069 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 13:12:42.076 +05:30  INF  Hosting environment: Development
+2024-05-17 13:12:42.080 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 21:30:32.079 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 21:30:32.446 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 21:30:32.450 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 21:30:32.457 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 21:30:32.460 +05:30  INF  Hosting environment: Development
+2024-05-17 21:30:32.463 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 21:30:33.036 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 21:30:33.374 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 348.0025ms
+2024-05-17 21:30:33.403 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 21:30:33.414 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 21:30:33.422 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 18.544ms
+2024-05-17 21:30:33.482 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.1861ms
+2024-05-17 21:30:33.612 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 21:30:33.832 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 226.1587ms
+2024-05-17 22:51:10.895 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 22:51:10.947 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.6527ms
+2024-05-17 22:51:11.080 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/favicon.ico - null null
+2024-05-17 22:51:11.207 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/favicon.ico - 404 0 null 127.8662ms
+2024-05-17 22:51:11.214 +05:30  INF  Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7220/favicon.ico, Response status code: 404
+2024-05-17 22:55:07.349 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 22:55:07.664 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 22:55:07.668 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 22:55:07.674 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 22:55:07.678 +05:30  INF  Hosting environment: Development
+2024-05-17 22:55:07.682 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 22:55:18.799 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 22:55:19.143 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 350.109ms
+2024-05-17 22:55:19.160 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 22:55:19.160 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 22:55:19.178 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 19.0415ms
+2024-05-17 22:55:19.214 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.4148ms
+2024-05-17 22:55:19.257 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 22:55:19.465 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.4584ms
+2024-05-17 22:58:19.787 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 22:58:19.822 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 35.5687ms
+2024-05-17 22:58:19.855 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 22:58:19.855 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 22:58:19.870 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 15.3993ms
+2024-05-17 22:58:19.887 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.9049ms
+2024-05-17 22:58:19.936 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 22:58:19.961 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.2746ms
+2024-05-17 22:59:17.506 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 22:59:17.523 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 17.4671ms
+2024-05-17 22:59:17.559 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 22:59:17.563 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.5602ms
+2024-05-17 22:59:17.568 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 22:59:17.581 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.5261ms
+2024-05-17 22:59:17.636 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 22:59:17.653 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8575ms
+2024-05-17 23:00:05.460 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:00:05.476 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.4759ms
+2024-05-17 23:00:05.508 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:00:05.509 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:00:05.513 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.878ms
+2024-05-17 23:00:05.539 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8353ms
+2024-05-17 23:00:05.576 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:00:05.592 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.671ms
+2024-05-17 23:00:15.312 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 23:00:15.709 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 23:00:15.713 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 23:00:15.722 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 23:00:15.726 +05:30  INF  Hosting environment: Development
+2024-05-17 23:00:15.730 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 23:00:27.031 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:00:27.340 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 316.2748ms
+2024-05-17 23:00:27.360 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:00:27.360 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:00:27.375 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 15.6308ms
+2024-05-17 23:00:27.408 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.5487ms
+2024-05-17 23:00:27.624 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:00:27.793 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.5833ms
+2024-05-17 23:02:20.290 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:02:20.318 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 29.1382ms
+2024-05-17 23:02:20.353 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:02:20.353 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:02:20.359 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 6.1665ms
+2024-05-17 23:02:20.394 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.6328ms
+2024-05-17 23:02:20.452 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:02:20.481 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.8217ms
+2024-05-17 23:02:24.464 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:02:24.481 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 17.4515ms
+2024-05-17 23:02:24.518 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:02:24.524 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.4234ms
+2024-05-17 23:02:24.530 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:02:24.546 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.2011ms
+2024-05-17 23:02:24.604 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:02:24.627 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.5229ms
+2024-05-17 23:02:36.368 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:02:36.384 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.3285ms
+2024-05-17 23:02:36.410 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:02:36.410 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:02:36.415 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.2391ms
+2024-05-17 23:02:36.428 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.661ms
+2024-05-17 23:02:36.472 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:02:36.488 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.8572ms
+2024-05-17 23:02:45.067 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 23:02:45.408 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 23:02:45.412 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 23:02:45.419 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 23:02:45.424 +05:30  INF  Hosting environment: Development
+2024-05-17 23:02:45.428 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 23:02:46.058 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:02:46.578 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 527.5589ms
+2024-05-17 23:02:46.605 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:02:46.605 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:02:46.632 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 27.1347ms
+2024-05-17 23:02:46.696 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.2933ms
+2024-05-17 23:02:46.813 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:02:47.217 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 396.496ms
+2024-05-17 23:05:11.404 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:05:11.434 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 30.4591ms
+2024-05-17 23:05:11.464 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:05:11.464 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:05:11.468 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 4.6927ms
+2024-05-17 23:05:11.493 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.7747ms
+2024-05-17 23:05:11.537 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:05:11.576 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.2109ms
+2024-05-17 23:05:19.949 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 23:05:20.218 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 23:05:20.221 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 23:05:20.228 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 23:05:20.231 +05:30  INF  Hosting environment: Development
+2024-05-17 23:05:20.234 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 23:05:31.948 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:05:32.309 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 369.0224ms
+2024-05-17 23:05:32.322 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:05:32.322 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:05:32.329 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 7.9801ms
+2024-05-17 23:05:32.371 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.1428ms
+2024-05-17 23:05:32.580 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:05:32.810 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 229.9867ms
+2024-05-17 23:07:26.408 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:07:26.452 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 44.3412ms
+2024-05-17 23:07:26.497 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:07:26.497 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:07:26.503 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.8049ms
+2024-05-17 23:07:26.550 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8229ms
+2024-05-17 23:07:26.728 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:07:26.789 +05:30  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Product/all-products" for actions - API.Controllers.ProductController.GetProducts (API),API.Controllers.ProductController.GetProducts (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-17 23:07:26.800 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 72.8826ms
+2024-05-17 23:07:30.515 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:07:30.530 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 15.5286ms
+2024-05-17 23:07:30.577 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:07:30.581 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:07:30.582 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.1921ms
+2024-05-17 23:07:30.598 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.5089ms
+2024-05-17 23:07:30.656 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:07:30.674 +05:30  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Product/all-products" for actions - API.Controllers.ProductController.GetProducts (API),API.Controllers.ProductController.GetProducts (API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-05-17 23:07:30.680 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 24.6592ms
+2024-05-17 23:07:40.600 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:07:40.616 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 16.047ms
+2024-05-17 23:07:40.649 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:07:40.659 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:07:40.667 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.0707ms
+2024-05-17 23:07:40.668 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 10.2797ms
+2024-05-17 23:07:40.727 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:07:40.750 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.6072ms
+2024-05-17 23:07:53.743 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 23:07:54.034 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 23:07:54.037 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 23:07:54.044 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 23:07:54.048 +05:30  INF  Hosting environment: Development
+2024-05-17 23:07:54.051 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 23:08:04.269 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:08:04.627 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 367.658ms
+2024-05-17 23:08:04.646 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:08:04.646 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:08:04.655 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 9.0623ms
+2024-05-17 23:08:04.701 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.9566ms
+2024-05-17 23:08:04.762 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:08:04.932 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.0374ms
+2024-05-17 23:10:49.697 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:10:49.731 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 35.4276ms
+2024-05-17 23:10:49.756 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:10:49.756 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:10:49.761 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 5.3972ms
+2024-05-17 23:10:49.830 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.542ms
+2024-05-17 23:10:49.864 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:10:49.900 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.4293ms
+2024-05-17 23:11:02.211 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-17 23:11:02.577 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-17 23:11:02.580 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-17 23:11:02.587 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-17 23:11:02.590 +05:30  INF  Hosting environment: Development
+2024-05-17 23:11:02.593 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-17 23:11:14.332 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-17 23:11:14.730 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 404.6542ms
+2024-05-17 23:11:14.755 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-17 23:11:14.763 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 7.824ms
+2024-05-17 23:11:14.766 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-17 23:11:14.868 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.4476ms
+2024-05-17 23:11:15.064 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-17 23:11:15.273 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 209.1522ms

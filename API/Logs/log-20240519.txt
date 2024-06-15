@@ -1,0 +1,28 @@
+2024-05-19 22:20:55.210 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-19 22:20:55.773 +05:30  INF  Now listening on: https://localhost:7220
+2024-05-19 22:20:55.778 +05:30  INF  Now listening on: http://localhost:5016
+2024-05-19 22:20:55.789 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-05-19 22:20:55.795 +05:30  INF  Hosting environment: Development
+2024-05-19 22:20:55.799 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-05-19 22:20:59.452 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-05-19 22:21:00.547 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 1108.8642ms
+2024-05-19 22:21:00.563 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 22:21:00.571 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-05-19 22:21:00.652 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 89.7015ms
+2024-05-19 22:21:00.962 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 391.3015ms
+2024-05-19 22:21:01.057 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-05-19 22:21:01.399 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 342.1105ms
+2024-05-19 22:21:35.591 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/Register - application/json 212
+2024-05-19 22:21:35.761 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-19 22:21:35.812 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-19 22:21:37.155 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-19 22:21:37.182 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 1358.8984ms
+2024-05-19 22:21:37.184 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-19 22:21:37.193 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/Register - 400 null application/json; charset=utf-8 1601.879ms
+2024-05-19 23:53:09.620 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/Register - application/json 215
+2024-05-19 23:53:09.631 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-19 23:53:09.632 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-05-19 23:53:11.615 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-05-19 23:53:11.618 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 1983.4314ms
+2024-05-19 23:53:11.620 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-05-19 23:53:11.624 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/Register - 400 null application/json; charset=utf-8 2003.9547ms

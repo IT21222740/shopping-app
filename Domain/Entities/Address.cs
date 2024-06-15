@@ -17,5 +17,7 @@ namespace Domain.Entities
         public virtual User? User { get; set; }
 
         public required string UserId { get; set; }
+
+        public bool IsPrimary { get; set; }
     }
 }

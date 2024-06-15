@@ -1,0 +1,400 @@
+2024-06-15 12:57:11.061 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-15 12:57:11.434 +05:30  INF  Now listening on: https://localhost:7220
+2024-06-15 12:57:11.438 +05:30  INF  Now listening on: http://localhost:5016
+2024-06-15 12:57:11.448 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-06-15 12:57:11.453 +05:30  INF  Hosting environment: Development
+2024-06-15 12:57:11.458 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-06-15 12:57:14.927 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-15 12:57:15.500 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 582.8563ms
+2024-06-15 12:57:15.532 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-15 12:57:15.532 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 12:57:15.584 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 52.4727ms
+2024-06-15 12:57:15.799 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 267.1788ms
+2024-06-15 12:57:15.896 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-15 12:57:16.248 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 352.5013ms
+2024-06-15 13:04:11.804 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/register - application/json 239
+2024-06-15 13:04:11.972 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-06-15 13:04:12.010 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-06-15 13:04:13.466 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-06-15 13:04:13.493 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 1474.3369ms
+2024-06-15 13:04:13.495 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-06-15 13:04:13.504 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/register - 400 null application/json; charset=utf-8 1699.9882ms
+2024-06-15 13:04:45.207 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/register - application/json 248
+2024-06-15 13:04:45.220 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-06-15 13:04:45.221 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-06-15 13:04:49.253 +05:30  INF  Executed DbCommand (100ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-06-15 13:04:49.377 +05:30  INF  Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-15 13:04:51.176 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:04:51.184 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 5960.2462ms
+2024-06-15 13:04:51.186 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-06-15 13:04:51.192 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/register - 200 null application/json; charset=utf-8 5985.1832ms
+2024-06-15 13:05:23.584 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/login - application/json 76
+2024-06-15 13:05:23.604 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Login (API)'
+2024-06-15 13:05:23.609 +05:30  INF  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller API.Controllers.UserController (API).
+2024-06-15 13:05:25.888 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.User.LoginResponse'.
+2024-06-15 13:05:25.891 +05:30  INF  Executed action API.Controllers.UserController.Login (API) in 2277.8476ms
+2024-06-15 13:05:25.894 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Login (API)'
+2024-06-15 13:05:25.897 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/login - 200 null application/json; charset=utf-8 2313.5368ms
+2024-06-15 13:05:53.243 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/addAddress - application/json 66
+2024-06-15 13:05:54.208 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Address (API)'
+2024-06-15 13:05:54.213 +05:30  INF  Route matched with {action = "Address", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Address(Application.DTOs.AddressDTO) on controller API.Controllers.UserController (API).
+2024-06-15 13:05:54.252 +05:30  INF  Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-15 13:05:54.257 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:05:54.269 +05:30  INF  Executed action API.Controllers.UserController.Address (API) in 53.9709ms
+2024-06-15 13:05:54.271 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Address (API)'
+2024-06-15 13:05:54.275 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/addAddress - 200 null application/json; charset=utf-8 1032.8476ms
+2024-06-15 13:06:19.402 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Product/products-by-id/1 - null null
+2024-06-15 13:06:19.416 +05:30  INF  Executing endpoint 'API.Controllers.ProductController.GetProductById (API)'
+2024-06-15 13:06:19.422 +05:30  INF  Route matched with {action = "GetProductById", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Application.DTOs.ServiceResponse] GetProductById(Int32) on controller API.Controllers.ProductController (API).
+2024-06-15 13:06:19.957 +05:30  INF  Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity], [p0].[CategoryId], [p0].[CategoryIcon], [p0].[CategoryName]
+FROM [Products] AS [p]
+INNER JOIN [ProductCategories] AS [p0] ON [p].[ProductCategoryId] = [p0].[CategoryId]
+WHERE [p].[ProductId] = @__id_0
+2024-06-15 13:06:19.974 +05:30  INF  Executing ObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:06:19.981 +05:30  INF  Executed action API.Controllers.ProductController.GetProductById (API) in 557.1587ms
+2024-06-15 13:06:19.984 +05:30  INF  Executed endpoint 'API.Controllers.ProductController.GetProductById (API)'
+2024-06-15 13:06:19.987 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Product/products-by-id/1 - 200 null application/json; charset=utf-8 585.071ms
+2024-06-15 13:06:36.494 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Product/products-by-category/1 - null null
+2024-06-15 13:06:36.499 +05:30  INF  Executing endpoint 'API.Controllers.ProductController.GetProductsByCategory (API)'
+2024-06-15 13:06:36.506 +05:30  INF  Route matched with {action = "GetProductsByCategory", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.Product.ProductResponse]] GetProductsByCategory(Int32) on controller API.Controllers.ProductController (API).
+2024-06-15 13:06:36.533 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@__categoryId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity], [p0].[CategoryId], [p0].[CategoryIcon], [p0].[CategoryName]
+FROM [Products] AS [p]
+INNER JOIN [ProductCategories] AS [p0] ON [p].[ProductCategoryId] = [p0].[CategoryId]
+WHERE [p].[ProductCategoryId] = @__categoryId_0
+2024-06-15 13:06:36.540 +05:30  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Product.ProductResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 13:06:36.543 +05:30  INF  Executed action API.Controllers.ProductController.GetProductsByCategory (API) in 33.2067ms
+2024-06-15 13:06:36.546 +05:30  INF  Executed endpoint 'API.Controllers.ProductController.GetProductsByCategory (API)'
+2024-06-15 13:06:36.547 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Product/products-by-category/1 - 200 null application/json; charset=utf-8 54.1059ms
+2024-06-15 13:06:45.143 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/Product/all-products - null null
+2024-06-15 13:06:45.146 +05:30  INF  Executing endpoint 'API.Controllers.ProductController.GetProducts (API)'
+2024-06-15 13:06:45.153 +05:30  INF  Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Application.DTOs.Product.ProductResponse]] GetProducts() on controller API.Controllers.ProductController (API).
+2024-06-15 13:06:45.172 +05:30  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity], [p0].[CategoryId], [p0].[CategoryIcon], [p0].[CategoryName]
+FROM [Products] AS [p]
+INNER JOIN [ProductCategories] AS [p0] ON [p].[ProductCategoryId] = [p0].[CategoryId]
+2024-06-15 13:06:45.176 +05:30  INF  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Product.ProductResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 13:06:45.178 +05:30  INF  Executed action API.Controllers.ProductController.GetProducts (API) in 21.9154ms
+2024-06-15 13:06:45.180 +05:30  INF  Executed endpoint 'API.Controllers.ProductController.GetProducts (API)'
+2024-06-15 13:06:45.182 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/Product/all-products - 200 null application/json; charset=utf-8 40.2131ms
+2024-06-15 13:07:04.095 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/api/Payment/Get-User-payments-byId/1 - null null
+2024-06-15 13:07:04.103 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.GetPaymentInfo (API)'
+2024-06-15 13:07:04.107 +05:30  INF  Route matched with {action = "GetPaymentInfo", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPaymentInfo(Int32) on controller API.Controllers.PaymentController (API).
+2024-06-15 13:07:04.137 +05:30  INF  Executed DbCommand (13ms) [Parameters=[@__orderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[ProductId], [o].[OrderQty], [o].[UnitPrice], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [OrderProducts] AS [o]
+INNER JOIN [Products] AS [p] ON [o].[ProductId] = [p].[ProductId]
+WHERE [o].[OrderId] = @__orderId_0
+2024-06-15 13:07:04.141 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 13:07:04.148 +05:30  INF  Executed action API.Controllers.PaymentController.GetPaymentInfo (API) in 39.0217ms
+2024-06-15 13:07:04.151 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.GetPaymentInfo (API)'
+2024-06-15 13:07:04.152 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/api/Payment/Get-User-payments-byId/1 - 200 null application/json; charset=utf-8 57.2444ms
+2024-06-15 13:07:12.433 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/api/Payment/Get-user-payments - null null
+2024-06-15 13:07:12.440 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.UserPayments (API)'
+2024-06-15 13:07:12.445 +05:30  INF  Route matched with {action = "UserPayments", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserPayments() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:07:12.506 +05:30  INF  Executed DbCommand (44ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[UserId] = @__userId_0
+2024-06-15 13:07:12.513 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Order.PaymentInfoDTO, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 13:07:12.515 +05:30  INF  Executed action API.Controllers.PaymentController.UserPayments (API) in 66.699ms
+2024-06-15 13:07:12.518 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.UserPayments (API)'
+2024-06-15 13:07:12.519 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/api/Payment/Get-user-payments - 200 null application/json; charset=utf-8 87.0913ms
+2024-06-15 13:07:18.739 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Payment/webHook - null 0
+2024-06-15 13:07:18.744 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:07:18.748 +05:30  INF  Route matched with {action = "Index", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:07:26.486 +05:30  INF  Executed action API.Controllers.PaymentController.Index (API) in 7735.2644ms
+2024-06-15 13:07:26.488 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:07:26.551 +05:30  ERR  An unhandled exception has occurred while executing the request.System.NullReferenceException: Object reference not set to an instance of an object.
+   at Stripe.EventUtility.ParseEvent(String json, Boolean throwOnApiVersionMismatch) in /_/src/Stripe.net/Services/Events/EventUtility.cs:line 44
+   at PaymentService.webHookHandler() in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Infrastructure\Payment\PaymentService.cs:line 81
+   at Application.Services.Implementation.CheckoutService.HandlePayment() in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\Services\Implementation\CheckoutService.cs:line 63
+   at API.Controllers.PaymentController.Index() in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\Controllers\CheckoutController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-06-15 13:07:26.581 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Payment/webHook - 500 null text/plain; charset=utf-8 7842.1253ms
+2024-06-15 13:07:32.882 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Payment - null 0
+2024-06-15 13:07:32.885 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Checkout (API)'
+2024-06-15 13:07:32.890 +05:30  INF  Route matched with {action = "Checkout", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Checkout() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:07:32.948 +05:30  INF  Executed DbCommand (43ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PhoneNumber], [u].[StripeId]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2024-06-15 13:07:32.974 +05:30  INF  Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 13:07:32.986 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 13:07:33.033 +05:30  INF  Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [PaymentId], [Status], [TotalAmount], [UserId])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-15 13:07:34.610 +05:30  INF  Executed action API.Controllers.PaymentController.Checkout (API) in 1716.7071ms
+2024-06-15 13:07:34.611 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Checkout (API)'
+2024-06-15 13:07:34.624 +05:30  ERR  An unhandled exception has occurred while executing the request.Stripe.StripeException: You passed an empty string for 'line_items'. We assume empty values are an attempt to unset a parameter; however 'line_items' cannot be unset. You should remove 'line_items' from your request or supply a non-empty value.
+   at Stripe.StripeClient.ProcessResponse[T](StripeResponse response) in /_/src/Stripe.net/Infrastructure/Public/StripeClient.cs:line 153
+   at Stripe.StripeClient.RequestAsync[T](HttpMethod method, String path, BaseOptions options, RequestOptions requestOptions, CancellationToken cancellationToken) in /_/src/Stripe.net/Infrastructure/Public/StripeClient.cs:line 115
+   at Stripe.Service`1.RequestAsync[T](HttpMethod method, String path, BaseOptions options, RequestOptions requestOptions, CancellationToken cancellationToken) in /_/src/Stripe.net/Services/_base/Service.cs:line 276
+   at PaymentService.Checkout(String stripeId, IEnumerable`1 products, String orderId) in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Infrastructure\Payment\PaymentService.cs:line 57
+   at Application.Services.Implementation.CheckoutService.checkout() in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\Application\Services\Implementation\CheckoutService.cs:line 50
+   at API.Controllers.PaymentController.Checkout() in C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API\Controllers\CheckoutController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-06-15 13:07:34.641 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Payment - 500 null text/plain; charset=utf-8 1759.8528ms
+2024-06-15 13:07:45.785 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - null null
+2024-06-15 13:07:45.789 +05:30  INF  Executing endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 13:07:45.794 +05:30  INF  Route matched with {action = "GetAllCartItems", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCartItems() on controller API.Controllers.CartController (API).
+2024-06-15 13:07:45.809 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 13:07:45.813 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Cart.CartItemResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 13:07:45.817 +05:30  INF  Executed action API.Controllers.CartController.GetAllCartItems (API) in 20.8413ms
+2024-06-15 13:07:45.819 +05:30  INF  Executed endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 13:07:45.820 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - 200 null application/json; charset=utf-8 35.7465ms
+2024-06-15 13:08:01.551 +05:30  INF  Request starting HTTP/2 DELETE https://localhost:7220/api/Cart/delete-cart-item/1 - null null
+2024-06-15 13:08:01.555 +05:30  INF  Executing endpoint 'API.Controllers.CartController.DeleteCartItem (API)'
+2024-06-15 13:08:01.559 +05:30  INF  Route matched with {action = "DeleteCartItem", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteCartItem(Int32) on controller API.Controllers.CartController (API).
+2024-06-15 13:08:01.607 +05:30  INF  Executed DbCommand (28ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 13:08:01.616 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-06-15 13:08:01.619 +05:30  INF  Executed action API.Controllers.CartController.DeleteCartItem (API) in 57.2994ms
+2024-06-15 13:08:01.621 +05:30  INF  Executed endpoint 'API.Controllers.CartController.DeleteCartItem (API)'
+2024-06-15 13:08:01.623 +05:30  INF  Request finished HTTP/2 DELETE https://localhost:7220/api/Cart/delete-cart-item/1 - 400 null application/json; charset=utf-8 72.0241ms
+2024-06-15 13:08:25.353 +05:30  INF  Request starting HTTP/2 PUT https://localhost:7220/api/Cart/modify-cart-item - application/json 38
+2024-06-15 13:08:25.357 +05:30  INF  Executing endpoint 'API.Controllers.CartController.ModifyCart (API)'
+2024-06-15 13:08:25.362 +05:30  INF  Route matched with {action = "ModifyCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ModifyCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 13:08:25.376 +05:30  INF  Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 13:08:25.380 +05:30  INF  Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-06-15 13:08:25.382 +05:30  INF  Executed action API.Controllers.CartController.ModifyCart (API) in 15.4014ms
+2024-06-15 13:08:25.384 +05:30  INF  Executed endpoint 'API.Controllers.CartController.ModifyCart (API)'
+2024-06-15 13:08:25.386 +05:30  INF  Request finished HTTP/2 PUT https://localhost:7220/api/Cart/modify-cart-item - 400 null application/json; charset=utf-8 32.9632ms
+2024-06-15 13:08:45.598 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - application/json 37
+2024-06-15 13:08:45.609 +05:30  INF  Executing endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 13:08:45.614 +05:30  INF  Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddToCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 13:08:45.629 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 13:08:45.710 +05:30  INF  Executed DbCommand (59ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 450), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserProducts] ([ProductId], [userId], [Quantity])
+VALUES (@p0, @p1, @p2);
+2024-06-15 13:08:45.721 +05:30  INF  Cart item successfully added
+2024-06-15 13:08:45.723 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 13:08:45.725 +05:30  INF  Executed action API.Controllers.CartController.AddToCart (API) in 107.2821ms
+2024-06-15 13:08:45.727 +05:30  INF  Executed endpoint 'API.Controllers.CartController.AddToCart (API)'
+2024-06-15 13:08:45.729 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Cart/add-to-cart - 200 null application/json; charset=utf-8 131.6811ms
+2024-06-15 13:08:59.149 +05:30  INF  Request starting HTTP/2 PUT https://localhost:7220/api/Cart/modify-cart-item - application/json 38
+2024-06-15 13:08:59.154 +05:30  INF  Executing endpoint 'API.Controllers.CartController.ModifyCart (API)'
+2024-06-15 13:08:59.156 +05:30  INF  Route matched with {action = "ModifyCart", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ModifyCart(Application.DTOs.Cart.CartItemRequset) on controller API.Controllers.CartController (API).
+2024-06-15 13:08:59.171 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450), @__itemId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0 AND [u].[ProductId] = @__itemId_1
+2024-06-15 13:08:59.192 +05:30  INF  Executed DbCommand (8ms) [Parameters=[@p1='?' (DbType = Int32), @p2='?' (Size = 450), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [UserProducts] SET [Quantity] = @p0
+OUTPUT 1
+WHERE [ProductId] = @p1 AND [userId] = @p2;
+2024-06-15 13:08:59.201 +05:30  INF  Cart Items updated Sucessfully
+2024-06-15 13:08:59.202 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 13:08:59.205 +05:30  INF  Executed action API.Controllers.CartController.ModifyCart (API) in 44.4499ms
+2024-06-15 13:08:59.207 +05:30  INF  Executed endpoint 'API.Controllers.CartController.ModifyCart (API)'
+2024-06-15 13:08:59.209 +05:30  INF  Request finished HTTP/2 PUT https://localhost:7220/api/Cart/modify-cart-item - 200 null application/json; charset=utf-8 61.073ms
+2024-06-15 13:09:14.239 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - null null
+2024-06-15 13:09:14.243 +05:30  INF  Executing endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 13:09:14.245 +05:30  INF  Route matched with {action = "GetAllCartItems", controller = "Cart"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCartItems() on controller API.Controllers.CartController (API).
+2024-06-15 13:09:14.257 +05:30  INF  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 13:09:14.265 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.Cart.CartItemResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-15 13:09:14.270 +05:30  INF  Executed action API.Controllers.CartController.GetAllCartItems (API) in 21.9925ms
+2024-06-15 13:09:14.273 +05:30  INF  Executed endpoint 'API.Controllers.CartController.GetAllCartItems (API)'
+2024-06-15 13:09:14.275 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/api/Cart/get-all-cartItems - 200 null application/json; charset=utf-8 35.744ms
+2024-06-15 13:11:54.049 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/api/Payment - null 0
+2024-06-15 13:11:54.073 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Checkout (API)'
+2024-06-15 13:11:54.075 +05:30  INF  Route matched with {action = "Checkout", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Checkout() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:11:54.093 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PhoneNumber], [u].[StripeId]
+FROM [Users] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2024-06-15 13:11:54.107 +05:30  INF  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 13:11:54.117 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__userId_0
+2024-06-15 13:11:54.129 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__item_ProductId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ProductId] = @__item_ProductId_0
+2024-06-15 13:11:54.141 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderDate], [PaymentId], [Status], [TotalAmount], [UserId])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-15 13:11:54.168 +05:30  INF  Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [OrderProducts] ([OrderId], [ProductId], [OrderQty], [UnitPrice])
+VALUES (@p0, @p1, @p2, @p3);
+2024-06-15 13:11:55.547 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2024-06-15 13:11:55.549 +05:30  INF  Executed action API.Controllers.PaymentController.Checkout (API) in 1469.9393ms
+2024-06-15 13:11:55.550 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Checkout (API)'
+2024-06-15 13:11:55.552 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/api/Payment - 200 null application/json; charset=utf-8 1502.955ms
+2024-06-15 13:12:24.126 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - application/json; charset=utf-8 1960
+2024-06-15 13:12:24.126 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - application/json; charset=utf-8 3508
+2024-06-15 13:12:24.129 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.132 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.134 +05:30  INF  Route matched with {action = "Index", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:12:24.136 +05:30  INF  Route matched with {action = "Index", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:12:24.215 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:12:24.222 +05:30  INF  Executed action API.Controllers.PaymentController.Index (API) in 83.4889ms
+2024-06-15 13:12:24.224 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.227 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - 200 null application/json; charset=utf-8 101.3643ms
+2024-06-15 13:12:24.228 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:12:24.234 +05:30  INF  Executed action API.Controllers.PaymentController.Index (API) in 92.1324ms
+2024-06-15 13:12:24.236 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.238 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - 200 null application/json; charset=utf-8 112.6516ms
+2024-06-15 13:12:24.401 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - application/json; charset=utf-8 3294
+2024-06-15 13:12:24.401 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - application/json; charset=utf-8 1918
+2024-06-15 13:12:24.414 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.422 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.424 +05:30  INF  Route matched with {action = "Index", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:12:24.426 +05:30  INF  Route matched with {action = "Index", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:12:24.435 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:12:24.437 +05:30  INF  Executed action API.Controllers.PaymentController.Index (API) in 3.7839ms
+2024-06-15 13:12:24.439 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:24.441 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - 200 null application/json; charset=utf-8 39.5908ms
+2024-06-15 13:12:24.481 +05:30  INF  Executed DbCommand (37ms) [Parameters=[@__paymentResponse_OrderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__paymentResponse_OrderId_0
+2024-06-15 13:12:24.500 +05:30  INF  Executed DbCommand (8ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Double), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [OrderDate] = @p0, [PaymentId] = @p1, [Status] = @p2, [TotalAmount] = @p3, [UserId] = @p4
+OUTPUT 1
+WHERE [OrderId] = @p5;
+2024-06-15 13:12:24.515 +05:30  INF  Executed DbCommand (4ms) [Parameters=[@__id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity], [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [UserProducts] AS [u]
+INNER JOIN [Products] AS [p] ON [u].[ProductId] = [p].[ProductId]
+WHERE [u].[userId] = @__id_0
+2024-06-15 13:12:24.527 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__cartItem_ProductId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductId], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[ProductId] = @__cartItem_ProductId_0
+2024-06-15 13:12:24.556 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Double), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Double), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Discount] = @p1, [ImageUrl] = @p2, [Name] = @p3, [Price] = @p4, [ProductCategoryId] = @p5, [Quantity] = @p6
+OUTPUT 1
+WHERE [ProductId] = @p7;
+2024-06-15 13:12:24.567 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__UserId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[userId], [u].[ProductId], [u].[Quantity]
+FROM [UserProducts] AS [u]
+WHERE [u].[userId] = @__UserId_0
+2024-06-15 13:12:24.583 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [UserProducts]
+OUTPUT 1
+WHERE [ProductId] = @p0 AND [userId] = @p1;
+2024-06-15 13:12:24.651 +05:30  INF  Executed DbCommand (7ms) [Parameters=[@__orderId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[OrderId], [t].[OrderDate], [t].[PaymentId], [t].[Status], [t].[TotalAmount], [t].[UserId], [t].[UserId0], [t].[Email], [t].[FirstName], [t].[LastName], [t].[PhoneNumber], [t].[StripeId], [t0].[OrderId], [t0].[ProductId], [t0].[OrderQty], [t0].[UnitPrice], [t0].[ProductId0], [t0].[Description], [t0].[Discount], [t0].[ImageUrl], [t0].[Name], [t0].[Price], [t0].[ProductCategoryId], [t0].[Quantity]
+FROM (
+    SELECT TOP(1) [o].[OrderId], [o].[OrderDate], [o].[PaymentId], [o].[Status], [o].[TotalAmount], [o].[UserId], [u].[UserId] AS [UserId0], [u].[Email], [u].[FirstName], [u].[LastName], [u].[PhoneNumber], [u].[StripeId]
+    FROM [Orders] AS [o]
+    INNER JOIN [Users] AS [u] ON [o].[UserId] = [u].[UserId]
+    WHERE [o].[OrderId] = @__orderId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [o0].[OrderId], [o0].[ProductId], [o0].[OrderQty], [o0].[UnitPrice], [p].[ProductId] AS [ProductId0], [p].[Description], [p].[Discount], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[ProductCategoryId], [p].[Quantity]
+    FROM [OrderProducts] AS [o0]
+    INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[ProductId]
+) AS [t0] ON [t].[OrderId] = [t0].[OrderId]
+ORDER BY [t].[OrderId], [t].[UserId0], [t0].[OrderId], [t0].[ProductId]
+2024-06-15 13:12:25.849 +05:30  INF  Request starting HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - application/json; charset=utf-8 3733
+2024-06-15 13:12:25.853 +05:30  INF  Executing endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:25.855 +05:30  INF  Route matched with {action = "Index", controller = "Payment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller API.Controllers.PaymentController (API).
+2024-06-15 13:12:25.862 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:12:25.863 +05:30  INF  Executed action API.Controllers.PaymentController.Index (API) in 6.5815ms
+2024-06-15 13:12:25.865 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:25.866 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - 200 null application/json; charset=utf-8 17.8626ms
+2024-06-15 13:12:25.905 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-15 13:12:25.908 +05:30  INF  Executed action API.Controllers.PaymentController.Index (API) in 1478.1861ms
+2024-06-15 13:12:25.910 +05:30  INF  Executed endpoint 'API.Controllers.PaymentController.Index (API)'
+2024-06-15 13:12:25.912 +05:30  INF  Request finished HTTP/1.1 POST https://localhost:7220/api/Payment/webHook - 200 null application/json; charset=utf-8 1511.9774ms

@@ -64,16 +64,16 @@ namespace API.Controllers
         /// <summary>
         /// delete Items from the cart
         /// </summary>
-        /// <param name="cartItem"></param>
+        /// <param name="productId"></param>
         /// <returns></returns>
         [Authorize]
-        [HttpDelete("delete-cart-item")]
+        [HttpDelete("delete-cart-item/{productId:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-        public async Task<IActionResult> DeleteCartItem([FromBody] CartItemRequset cartItem)
+        public async Task<IActionResult> DeleteCartItem(int productId)
         {
-            var result = await _cartService.RemoveCartItem(cartItem);
+            var result = await _cartService.RemoveCartItem(productId);
             if(result.Flag == true)
             {
                 return Ok(result.Message);

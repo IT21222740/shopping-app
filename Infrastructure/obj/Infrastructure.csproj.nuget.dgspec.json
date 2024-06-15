@@ -199,6 +199,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "SendGrid": {
               "target": "Package",
               "version": "[9.29.3, )"

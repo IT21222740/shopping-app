@@ -17,7 +17,10 @@ using Stripe;
 using System.Reflection;
 using System.Security.Claims;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 
@@ -46,8 +49,11 @@ builder.Services.AddSwaggerGen(options =>
     });
 
 
-    // Make sure Swagger UI requires a Bearer token to access the API
-    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    
+
+
+// Make sure Swagger UI requires a Bearer token to access the API
+options.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
             new OpenApiSecurityScheme
@@ -66,7 +72,6 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<IUserRepository, UserRepo>();
-builder.Services.AddScoped<IAddressRepository,AddressRepo>();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAuthentication, Authentication>();
@@ -80,14 +85,17 @@ builder.Services.AddScoped<ICheckoutService, CheckoutService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 
+//Stripe.StripeConfiguration.ApiKey = "sk_test_51PBBftBKfM8g2ev1FzRWy6XtCUYaSzilfG3AlqZQQuVJkQUa39ImNmZVgsLbAEjiRJpRYhmjSWE7Dqi9gYFklmjr00RaNudRWu";
 
-Stripe.StripeConfiguration.ApiKey = "sk_test_51PBBftBKfM8g2ev1FzRWy6XtCUYaSzilfG3AlqZQQuVJkQUa39ImNmZVgsLbAEjiRJpRYhmjSWE7Dqi9gYFklmjr00RaNudRWu";
+Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:ApiKey"];
 
 builder.Services.Configure<AuthConfiguration>(options =>
 {
-    options.clientId = builder.Configuration["Auth0:ClientId"];
-    options.connection = builder.Configuration["Auth0:Connection"]; 
+    options.ClientId = builder.Configuration["Auth0:ClientId"];
+    options.Connection = builder.Configuration["Auth0:Connection"]; 
     options.Domain = builder.Configuration["Auth0:Domain"];
+    options.ClientSecret = builder.Configuration["Auth0:ClientSecret"];
+    options.Audience = builder.Configuration["Auth0:Audience"];
 });
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

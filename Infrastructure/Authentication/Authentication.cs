@@ -1,4 +1,5 @@
 ﻿using Application.DTOs;
+using Application.DTOs.User;
 using Application.Interfaces;
 using Auth0.AuthenticationApi;
 using Auth0.AuthenticationApi.Models;
@@ -6,6 +7,7 @@ using Auth0.Core.Exceptions;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,10 +17,17 @@ namespace Infrastructure.Authentication
     public class Authentication : IAuthentication
     {
         private readonly AuthConfiguration _aConfiguration;
+        private  AuthenticationApiClient _authenticationApiClient;
         
         public Authentication(IOptions<AuthConfiguration> options)
         {
             _aConfiguration = options.Value;
+            _authenticationApiClient = new AuthenticationApiClient(new Uri($"https://{_aConfiguration.Domain}/"));
+        }
+
+        public void setAuthenticationClient(AuthenticationApiClient authenticationApiClient)
+        {
+            _authenticationApiClient = authenticationApiClient;
         }
 
         public Task<AuthDTO> GetIdAsync(string token)
@@ -30,13 +39,13 @@ namespace Infrastructure.Authentication
         {
             var signupRequest = new SignupUserRequest
             {
-                ClientId = _aConfiguration.clientId,
-                Connection = _aConfiguration.connection,
+                ClientId = _aConfiguration.ClientId,
+                Connection = _aConfiguration.Connection,
                 Email = username,
                 Password = password,
             };
 
-            var authClient = new AuthenticationApiClient(new Uri($"https://{_aConfiguration.Domain}/"));
+            var authClient = _authenticationApiClient;
 
             try
             {
@@ -54,6 +63,37 @@ namespace Infrastructure.Authentication
                 throw;
             }
 
+        }
+
+        public async Task<LoginResponse> AuthenticateUser(LoginDTO user)
+        {
+
+            var client = new AuthenticationApiClient(new Uri($"https://{_aConfiguration.Domain}/"));
+
+            var request = new ResourceOwnerTokenRequest
+            {
+                ClientId = _aConfiguration.ClientId,
+                ClientSecret = _aConfiguration.ClientSecret,
+                Audience = _aConfiguration.Audience,
+                Username = user.Email,
+                Password = user.Password,
+                Scope = "openid"
+            };
+
+            Console.WriteLine(request);
+
+            var tokenResponse = await client.GetTokenAsync(request);
+           
+            // If login successful, create JWT token
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var jwtToken = tokenHandler.ReadJwtToken(tokenResponse.AccessToken);
+            Console.WriteLine(tokenResponse.AccessToken.ToString());
+            Console.WriteLine(tokenResponse.IdToken.ToString());
+
+            return new LoginResponse
+            {
+                AcessToken = tokenResponse.AccessToken.ToString(),
+            };
         }
     }
 }

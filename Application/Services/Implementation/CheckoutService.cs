@@ -26,6 +26,7 @@ namespace Application.Services.Implementation
         private readonly IEmailSender _emailSender;
         private readonly IRepository<OrderProduct> _orderProducts;
         private readonly ICartService _cartService;
+       
         public CheckoutService(ITokenService tokenService, IPamentService pamentService,IRepository<User> userRepository,IRepository<UserProduct> userProdcuts, IOrderService orderService,IEmailSender emailSender,IRepository<OrderProduct> orderProducts, ICartService cartService) {
             _tokenService = tokenService;
             _pamentService = pamentService;
@@ -34,9 +35,7 @@ namespace Application.Services.Implementation
             _orderService = orderService;
             _emailSender = emailSender;
             _orderProducts = orderProducts;
-            _cartService = cartService;
-            
-
+            _cartService = cartService;            
         }
         public async Task<string> checkout()
         {

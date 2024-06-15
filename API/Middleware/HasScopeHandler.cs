@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Application.Middleware
 {
+   
     public class HasScopeHandler : AuthorizationHandler<HasScopeRequirement>
     {
+        
         protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, HasScopeRequirement requirement)
         {
             if (!context.User.HasClaim(c => c.Type == "scope" && c.Issuer == requirement.Issuer))

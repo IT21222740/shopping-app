@@ -14,6 +14,8 @@ namespace Application.Services.Interfaces
         Task<IEnumerable<ProductResponse>> getAllProducts();
         Task<IEnumerable<ProductResponse>> getAllByCategory(int categoryId);
 
+        Task<ServiceResponse> GetProductById(int id);
+
 
 
 

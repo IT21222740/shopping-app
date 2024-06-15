@@ -18,11 +18,11 @@
             <param name="cartItem"></param>
             <returns></returns>
         </member>
-        <member name="M:API.Controllers.CartController.DeleteCartItem(Application.DTOs.Cart.CartItemRequset)">
+        <member name="M:API.Controllers.CartController.DeleteCartItem(System.Int32)">
             <summary>
             delete Items from the cart
             </summary>
-            <param name="cartItem"></param>
+            <param name="productId"></param>
             <returns></returns>
         </member>
         <member name="M:API.Controllers.CartController.GetAllCartItems">
@@ -31,6 +31,71 @@
             View Items in the cart
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:API.Controllers.PaymentController.Checkout">
+            <summary>
+            user can perform payment
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.PaymentController.Index">
+            <summary>
+            This is a webhook used by stripe service
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.PaymentController.UserPayments">
+            <summary>
+            Retrieving user payments
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.PaymentController.GetPaymentInfo(System.Int32)">
+            <summary>
+            Get User payement for a specific order
+            </summary>
+            <param name="orderId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProductController.GetProducts">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns>A list of all available products.</returns>
+        </member>
+        <member name="M:API.Controllers.ProductController.GetProductsByCategory(System.Int32)">
+            <summary>
+            Retrieves all products by category.
+            </summary>
+            <param name="categoryId">The ID of the category.</param>
+            <returns>A list of products that belong to the specified category.</returns>
+        </member>
+        <member name="M:API.Controllers.ProductController.GetProductById(System.Int32)">
+            <summary>
+            Retrieves a product by its unique identifier.
+            </summary>
+            <param name="productId">The unique identifier of the product.</param>
+            <returns>A ServiceResponse object containing the product details or an error message.</returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Signup(Application.DTOs.SignUpDTO)">
+            <summary>
+            Registers a new user using Auth0.
+            </summary>
+            <param name="newUser">The registration details encapsulated in a RegisterDTO object.</param>
+        </member>
+        <member name="M:API.Controllers.UserController.Login(Application.DTOs.LoginDTO)">
+            <summary>
+            User Login Using Auth0.
+            </summary>
+            <param name="model">The login details encapsulated in a LoginDTO object.</param>
+            <returns>An IActionResult indicating the success or failure of the login attempt.</returns>
+        </member>
+        <member name="M:API.Controllers.UserController.Address(Application.DTOs.AddressDTO)">
+            <summary>
+            Adds a new address for the user.
+            </summary>
+            <param name="model">The address details encapsulated in an AddressDTO object.</param>
+            <returns>An IActionResult indicating the success or failure of the address addition.</returns>
         </member>
     </members>
 </doc>

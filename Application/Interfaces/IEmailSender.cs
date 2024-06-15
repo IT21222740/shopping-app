@@ -10,5 +10,6 @@ namespace Application.Interfaces
     public interface IEmailSender
     {
         Task Execute(Order order);
+        Task ExecuteReg(User user);
     }
 }
