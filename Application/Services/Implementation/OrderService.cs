@@ -20,14 +20,15 @@ namespace Application.Services.Implementation
         private readonly ITokenService _tokenService;
         private readonly ICartService _cartService;
         private readonly IRepository<Product> _productRepository;
-        public OrderService(IRepository<Order> orderRepository, IRepository<OrderProduct> productRepository, ITokenService tokenService, ICartService cartService, IRepository<Product> productsRepository)
+        private readonly IUnitOfWork _unitOfWork;
+        public OrderService(IRepository<Order> orderRepository, IRepository<OrderProduct> productRepository, ITokenService tokenService, ICartService cartService, IRepository<Product> productsRepository, IUnitOfWork unitOfWork)
         {
             _orderRepository = orderRepository;
             _orderProductRepository = productRepository;
             _tokenService = tokenService;
             _cartService = cartService;
             _productRepository = productsRepository;
-
+            _unitOfWork = unitOfWork;
         }
         public async Task<ServiceResponse> AddOrder(IEnumerable<UserProduct> userProducts)
         {
@@ -68,29 +69,46 @@ namespace Application.Services.Implementation
 
             if (order is not null)
             {
+                
                 order.PaymentId = paymentResponse.PaymentId;
                 order.Status = paymentResponse.Status;
                 order.TotalAmount = paymentResponse.TotalAmount;
 
-                await _orderRepository.Update(order);
-
-                var response = await _cartService.GetItems(order.UserId);
-
-                foreach (var cartItem in response) 
+                await _unitOfWork.BeginTransactionAsync();
+                try
                 {
-                    var product = await _productRepository.Get(filter:p=>p.ProductId == cartItem.ProductId);
-                    if (product is not null && product.Quantity >= cartItem.Quantity)
+                    await _orderRepository.Update(order);
+
+                    var response = await _cartService.GetItems(order.UserId);
+
+                    foreach (var cartItem in response)
                     {
-                        product.Quantity = product.Quantity- cartItem.Quantity;
-                        await _productRepository.Update(product);
-                    }                    
+                        var product = await _productRepository.Get(filter: p => p.ProductId == cartItem.ProductId);
+                        if (product is not null && product.Quantity >= cartItem.Quantity)
+                        {
+                            product.Quantity = product.Quantity - cartItem.Quantity;
+                            await _productRepository.Update(product);
+                        }
+                    }
+
+                    await _cartService.ClearCart(order.UserId);
+                    
+
+                    await _unitOfWork.CommitAsync();
+
+                    return new ServiceResponse(true, "Updated Order successfully", order);
+                }
+                catch(Exception ex)
+                {
+                    await _unitOfWork.RollbackAsync();
+                    return new ServiceResponse(false, "Updated Order Unsucess", ex);
                 }
 
-                await _cartService.ClearCart(order.UserId);
+               
                 
                 
 
-                return new ServiceResponse(true, "Updated Order successfully", order);
+                
 
             }
 

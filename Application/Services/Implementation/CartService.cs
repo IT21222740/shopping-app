@@ -51,7 +51,7 @@ namespace Application.Services.Implementation
                     await _cartItems.Update(cartItem);
 
                     _logger.LogInformation("Cart item updated successfully: {@CartItem}", cartItem);
-                    return new ServiceResponse(true, "Updated");
+                    return new ServiceResponse(true, "Cart Item Updated Sucessfully");
                 }
 
                 // Create a new cart item if it does not exist
@@ -174,6 +174,11 @@ namespace Application.Services.Implementation
         public async Task<ServiceResponse> ClearCart(string UserId)
         {
             var list = await _cartItems.GetAll(filter: up => up.userId == UserId);
+          
+            if (list.Count() == 0)
+            {
+                throw new Exception("Wrong operation: No cart items found for the specified user.");
+            }
             await _cartItems.RemoveMany(list.ToList());
             return new ServiceResponse(true, "deleted Cart Items");
 
