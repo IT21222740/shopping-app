@@ -1,0 +1,45 @@
+2024-06-16 13:50:50.569 +05:30  INF  User profile is available. Using 'C:\Users\iTela\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-16 13:50:51.009 +05:30  INF  Now listening on: https://localhost:7220
+2024-06-16 13:50:51.011 +05:30  INF  Now listening on: http://localhost:5016
+2024-06-16 13:50:51.018 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-06-16 13:50:51.022 +05:30  INF  Hosting environment: Development
+2024-06-16 13:50:51.025 +05:30  INF  Content root path: C:\Users\iTela\Documents\Assignment\sample project structure\ShoppingApp\API
+2024-06-16 13:51:06.228 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/index.html - null null
+2024-06-16 13:51:06.747 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/index.html - 200 null text/html;charset=utf-8 527.8259ms
+2024-06-16 13:51:06.783 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_vs/browserLink - null null
+2024-06-16 13:51:06.783 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-16 13:51:06.804 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 21.2014ms
+2024-06-16 13:51:06.868 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.081ms
+2024-06-16 13:51:07.056 +05:30  INF  Request starting HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - null null
+2024-06-16 13:51:07.268 +05:30  INF  Request finished HTTP/2 GET https://localhost:7220/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 211.5287ms
+2024-06-16 13:52:20.749 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/register - application/json 241
+2024-06-16 13:52:20.902 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Signup (API)'
+2024-06-16 13:52:20.943 +05:30  INF  Route matched with {action = "Signup", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(Application.DTOs.SignUpDTO) on controller API.Controllers.UserController (API).
+2024-06-16 13:52:44.246 +05:30  INF  User Signup wiht Third Party @{SignUp response}
+2024-06-16 13:52:57.444 +05:30  INF  User resgister to Third Party payement service @{SignUp response}
+2024-06-16 13:53:13.941 +05:30  INF  Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserId], [Email], [FirstName], [LastName], [PhoneNumber], [StripeId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-06-16 13:53:13.975 +05:30  INF  User created in db @{Created User}
+2024-06-16 13:53:14.058 +05:30  INF  Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Addresses] ([City], [IsPrimary], [PostalCode], [StreetName], [UserId])
+OUTPUT INSERTED.[AddressId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-16 13:53:14.095 +05:30  INF  User created in db @Domain.Entities.Address
+2024-06-16 13:53:15.576 +05:30  INF  Successful Registration @ServiceResponse { Flag = True, Message = Added, data =  }
+2024-06-16 13:53:15.588 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.ServiceResponse'.
+2024-06-16 13:53:15.602 +05:30  INF  Executed action API.Controllers.UserController.Signup (API) in 54650.1031ms
+2024-06-16 13:53:15.604 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Signup (API)'
+2024-06-16 13:53:15.616 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/register - 200 null application/json; charset=utf-8 54866.4929ms
+2024-06-16 14:15:58.958 +05:30  INF  Request starting HTTP/2 POST https://localhost:7220/User/login - application/json 69
+2024-06-16 14:15:58.977 +05:30  INF  Executing endpoint 'API.Controllers.UserController.Login (API)'
+2024-06-16 14:15:58.986 +05:30  INF  Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.DTOs.LoginDTO) on controller API.Controllers.UserController (API).
+2024-06-16 14:16:21.185 +05:30  INF  User login to the system @Application.DTOs.User.LoginResponse
+2024-06-16 14:16:28.987 +05:30  INF  Executing OkObjectResult, writing value of type 'Application.DTOs.User.LoginResponse'.
+2024-06-16 14:16:28.992 +05:30  INF  Executed action API.Controllers.UserController.Login (API) in 30001.4251ms
+2024-06-16 14:16:28.997 +05:30  INF  Executed endpoint 'API.Controllers.UserController.Login (API)'
+2024-06-16 14:16:28.999 +05:30  INF  Request finished HTTP/2 POST https://localhost:7220/User/login - 200 null application/json; charset=utf-8 30041.9383ms

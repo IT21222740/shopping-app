@@ -17,7 +17,7 @@ namespace Infrastructure.Authentication
     public class Authentication : IAuthentication
     {
         private readonly AuthConfiguration _aConfiguration;
-        private  AuthenticationApiClient _authenticationApiClient;
+        private  IAuthenticationApiClient _authenticationApiClient;
         
         public Authentication(IOptions<AuthConfiguration> options)
         {
@@ -25,7 +25,7 @@ namespace Infrastructure.Authentication
             _authenticationApiClient = new AuthenticationApiClient(new Uri($"https://{_aConfiguration.Domain}/"));
         }
 
-        public void setAuthenticationClient(AuthenticationApiClient authenticationApiClient)
+        public void setAuthenticationClient(IAuthenticationApiClient authenticationApiClient)
         {
             _authenticationApiClient = authenticationApiClient;
         }
@@ -68,7 +68,7 @@ namespace Infrastructure.Authentication
         public async Task<LoginResponse> AuthenticateUser(LoginDTO user)
         {
 
-            var client = new AuthenticationApiClient(new Uri($"https://{_aConfiguration.Domain}/"));
+            var client = _authenticationApiClient;
 
             var request = new ResourceOwnerTokenRequest
             {
@@ -84,11 +84,6 @@ namespace Infrastructure.Authentication
 
             var tokenResponse = await client.GetTokenAsync(request);
            
-            // If login successful, create JWT token
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var jwtToken = tokenHandler.ReadJwtToken(tokenResponse.AccessToken);
-            Console.WriteLine(tokenResponse.AccessToken.ToString());
-            Console.WriteLine(tokenResponse.IdToken.ToString());
 
             return new LoginResponse
             {
